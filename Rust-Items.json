@@ -2990,6 +2990,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -770304148,
+        "shortname": "chineselanternwhite",
+        "Name": "Chinese Lantern White",
+        "Description": "A decorative White Paper lantern",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -965336208,
         "shortname": "chocolate",
         "Name": "Chocolate Bar",
@@ -6477,7 +6500,7 @@
         "condition": {
             "enabled": true,
             "max": 100.0,
-            "repairable": false
+            "repairable": true
         },
         "Parent": 0,
         "isWearable": false,
@@ -8947,6 +8970,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -1696379844,
+        "shortname": "hazmatyoutooz",
+        "Name": "Hazmat Youtooz",
+        "Description": "Hazmat Youtooz",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 209218760,
         "shortname": "head.bag",
         "Name": "Head Bag",
@@ -9105,6 +9151,29 @@
         "isWearable": true,
         "isHoldable": false,
         "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -722629980,
+        "shortname": "heavyscientistyoutooz",
+        "Name": "Heavy Scientist Youtooz",
+        "Description": "Heavy Scientist Youtooz",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -10350,6 +10419,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -907422733,
+        "shortname": "largebackpack",
+        "Name": "Large Backpack",
+        "Description": "A larger military backpack that can hold items inside it",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "ContentCount",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 200.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": -489848205,
         "shortname": "largecandles",
         "Name": "Large Candle Set",
@@ -10491,11 +10583,11 @@
         "itemid": 607400343,
         "shortname": "legacy.shelter.wood",
         "Name": "Legacy Wood Shelter",
-        "Description": "The classic s*** shack. A great starter base for any fresh spawn.",
+        "Description": "The classic s*** shack. A great starter base for any fresh spawn. There is a limit to how many you can place.",
         "Category": "Construction",
         "maxDraggable": 0,
         "ItemType": "Generic",
-        "AmountType": "Count",
+        "AmountType": "ShelterLimit",
         "stackable": 1,
         "quickDespawn": false,
         "rarity": "Uncommon",
@@ -11285,6 +11377,29 @@
             "enabled": true,
             "max": 100.0,
             "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1168856825,
+        "shortname": "metal.detector",
+        "Name": "Metal Detector",
+        "Description": "Detects metal objects which may otherwise be hidden. When the light flashes, or you hear a beep, aim to search for items. Increase the bar until a flag appears. Dig at the flag with a melee item to reveal what it is. Different areas yield different rewards",
+        "Category": "Tool",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
         },
         "Parent": 0,
         "isWearable": false,
@@ -13639,6 +13754,29 @@
         "HasSkins": true
     },
     {
+        "itemid": -1315992997,
+        "shortname": "rocket.launcher.dragon",
+        "Name": "Dragon Rocket Launcher",
+        "Description": "Shoots rockets slightly farther than North Korea.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 442886268,
         "shortname": "rocket.launcher",
         "Name": "Rocket Launcher",
@@ -13659,7 +13797,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -1863063690,
@@ -15019,6 +15157,29 @@
         "HasSkins": true
     },
     {
+        "itemid": -1536855921,
+        "shortname": "shovel",
+        "Name": "Shovel",
+        "Description": "A shovel for digging up stuff",
+        "Category": "Tool",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -1199897169,
         "shortname": "shutter.metal.embrasure.a",
         "Name": "Metal horizontal embrasure",
@@ -15211,7 +15372,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 1,
+        "stackable": 5,
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
@@ -15280,7 +15441,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 1,
+        "stackable": 5,
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
@@ -16100,6 +16261,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 2068884361,
+        "shortname": "smallbackpack",
+        "Name": "Small Backpack",
+        "Description": "A small, makeshift backpack",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "ContentCount",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 200.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": -2058362263,
         "shortname": "smallcandles",
         "Name": "Small Candle Set",
@@ -16560,6 +16744,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 695450239,
+        "shortname": "spear.cny",
+        "Name": "Chinese new year spear",
+        "Description": "A Chinese new year themed metal spear",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 1602646136,
         "shortname": "spear.stone",
         "Name": "Stone Spear",
@@ -16603,7 +16810,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -1517740219,
