@@ -1111,7 +1111,7 @@
         "Category": "Electrical",
         "maxDraggable": 0,
         "ItemType": "Generic",
-        "AmountType": "Count",
+        "AmountType": "TurretLimit",
         "stackable": 1,
         "quickDespawn": false,
         "rarity": "VeryRare",
@@ -1607,6 +1607,29 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 821588319,
+        "shortname": "bicycle",
+        "Name": "Bicycle",
+        "Description": "A pedal bike.",
+        "Category": "Misc",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 250.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
         "HasSkins": false
     },
     {
@@ -4911,7 +4934,7 @@
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 100.0,
             "repairable": true
         },
@@ -5209,6 +5232,29 @@
         "stackable": 1,
         "quickDespawn": false,
         "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -948291630,
+        "shortname": "electric.seismicsensor",
+        "Name": "Seismic Sensor",
+        "Description": "A small device that detects vibrations within a set range. Will output a different power value depending on the explosive type detected, ideal to know when your time has come.",
+        "Category": "Electrical",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
         "condition": {
             "enabled": false,
             "max": 100.0,
@@ -7966,7 +8012,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 20,
+        "stackable": 25,
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
@@ -8432,6 +8478,29 @@
         "condition": {
             "enabled": true,
             "max": 500.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -839576748,
+        "shortname": "handcuffs",
+        "Name": "Handcuffs",
+        "Description": "Handcuffs",
+        "Category": "Tool",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": true,
+            "max": 60.0,
             "repairable": true
         },
         "Parent": 0,
@@ -10514,7 +10583,7 @@
         "itemid": 254522515,
         "shortname": "largemedkit",
         "Name": "Large Medkit",
-        "Description": "A large medkit.",
+        "Description": "A large medkit that heals you to max health over time and stops any bleeding instantly.\n\nGuarantees 100% recovery from the wounded state if placed in your toolbar.",
         "Category": "Medical",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -11779,7 +11848,7 @@
         "itemid": 935606207,
         "shortname": "minigun",
         "Name": "Minigun",
-        "Description": "A hand made belt-fed light machine gun with high damage, high rate of fire, low accuracy during short bursts.",
+        "Description": "A military issue belt-fed machine gun with that must be spun up to fire. Fires rapidly once spun up at the expense of movement speed.",
         "Category": "Weapon",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -12003,6 +12072,52 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1417478274,
+        "shortname": "motorbike",
+        "Name": "Motorbike",
+        "Description": "A motorbike.",
+        "Category": "Misc",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 300.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1869224826,
+        "shortname": "motorbike_sidecar",
+        "Name": "Motorbike With Sidecar",
+        "Description": "A motorbike with sidecar.",
+        "Category": "Misc",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 350.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
         "HasSkins": false
     },
     {
@@ -13064,6 +13179,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -892718768,
+        "shortname": "prisonerhood",
+        "Name": "Prisoner Hood",
+        "Description": "A hood for prisoners, restricts vision.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": true,
+            "max": 200.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": -1673693549,
         "shortname": "propanetank",
         "Name": "Empty Propane Tank",
@@ -13708,6 +13846,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -348232115,
+        "shortname": "rifle.sks",
+        "Name": "SKS",
+        "Description": "A Semi Automatic Rifle.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 176787552,
         "shortname": "riflebody",
         "Name": "Rifle Body",
@@ -13790,7 +13951,7 @@
         "rarity": "Uncommon",
         "condition": {
             "enabled": true,
-            "max": 150.0,
+            "max": 500.0,
             "repairable": true
         },
         "Parent": 0,
@@ -18147,6 +18308,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 1991794121,
+        "shortname": "trike",
+        "Name": "Trike",
+        "Description": "A three-wheeled bicycle.",
+        "Category": "Misc",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 275.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": 975983052,
         "shortname": "trophy",
         "Name": "Twitch Rivals Trophy",
@@ -20570,7 +20754,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 20,
+        "stackable": 25,
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
