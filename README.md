@@ -36,4 +36,4 @@ Will update if new items are added to the game. Current item count available: **
 - **Has Skins**: `HasSkins`
 
 **CREATED 19/09/23**
-**UPDATED 04/07/24**
+**UPDATED 06/09/24**

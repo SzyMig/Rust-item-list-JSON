@@ -3795,6 +3795,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 1174957864,
+        "shortname": "cupboard.tool.shockbyte",
+        "Name": "Shockbyte Tool Cupboard",
+        "Description": "Ensure 100% Tool Cupboard uptime with this Tool Cupboard skin.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 1242522330,
         "shortname": "cursedcauldron",
         "Name": "Cursed Cauldron",
@@ -4908,6 +4931,29 @@
         "ItemType": "Generic",
         "AmountType": "Count",
         "stackable": 5,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1619039771,
+        "shortname": "electric.digitalclock",
+        "Name": "Digital Clock",
+        "Description": "A digital clock that displays the server time and lets you set alarms to pass power through when ringing. Ideal for synchronizing traps or timed events.",
+        "Category": "Electrical",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -8282,8 +8328,8 @@
     {
         "itemid": -1759188988,
         "shortname": "habrepair",
-        "Name": "Hab Repair",
-        "Description": "Hab repair",
+        "Name": "Hot Air Balloon",
+        "Description": "A Hot Air Balloon.",
         "Category": "Misc",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -9371,7 +9417,7 @@
         "AmountType": "Count",
         "stackable": 1,
         "quickDespawn": false,
-        "rarity": "VeryRare",
+        "rarity": "Rare",
         "condition": {
             "enabled": true,
             "max": 15.0,
@@ -11893,8 +11939,8 @@
     {
         "itemid": 1426574435,
         "shortname": "minihelicopter.repair",
-        "Name": "MC repair",
-        "Description": "MC repair dummy",
+        "Name": "Minicopter",
+        "Description": "",
         "Category": "Misc",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -14860,8 +14906,8 @@
     {
         "itemid": -1884328185,
         "shortname": "scraptransportheli.repair",
-        "Name": "ScrapTransportHeliRepair",
-        "Description": "ScrapTransportHeliRepair Dummy",
+        "Name": "Scrap Transport Helicopter",
+        "Description": "",
         "Category": "Misc",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -18101,6 +18147,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 962186730,
+        "shortname": "tincan.alarm",
+        "Name": "Tin Can Alarm",
+        "Description": "A primitive perimeter alarm made from hanging tin cans. Clatters loudly when disturbed, alerting you to any trespassers. Simple but effective.",
+        "Category": "Traps",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -1262185308,
         "shortname": "tool.binoculars",
         "Name": "Binoculars",
@@ -19527,6 +19596,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -1501434104,
+        "shortname": "wallpaper",
+        "Name": "Wallpaper",
+        "Description": "Transform your base from a rusty shack to a cozy hideout with this sleek wallpaper. A nice touch of style - until the next raid, at least.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": true
+    },
+    {
         "itemid": -1344017968,
         "shortname": "wantedposter",
         "Name": "Wanted Poster",
@@ -19910,6 +20002,29 @@
             "enabled": false,
             "max": 300.0,
             "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1767794021,
+        "shortname": "weapon.mod.gascompressionovedrive",
+        "Name": "Gas Compression Overdrive",
+        "Description": "An internal weapon mod which compresses and directs gasses used for cycling the weapon to the barrel, effectively increasing projectile velocity and damage at the expense of cycle rate.",
+        "Category": "Component",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
+            "repairable": true
         },
         "Parent": 0,
         "isWearable": false,
