@@ -8947,6 +8947,29 @@
         "HasSkins": true
     },
     {
+        "itemid": 1578317134,
+        "shortname": "hazmat.plushy",
+        "Name": "Hazmat Plushy",
+        "Description": "A plushy of your favourite outfit made by the fabulous people at YouTooz.com",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -470439097,
         "shortname": "hazmatsuit.arcticsuit",
         "Name": "Arctic Suit",
@@ -13394,7 +13417,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 5,
+        "stackable": 20,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -15085,6 +15108,29 @@
         "isWearable": false,
         "isHoldable": false,
         "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 504109620,
+        "shortname": "sculpture.ice",
+        "Name": "Ice Sculpture",
+        "Description": "An block of ice you can sculpt.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -18791,6 +18837,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -739993590,
+        "shortname": "twitchrivalsflag",
+        "Name": "Twitch Rivals Flag",
+        "Description": "A wearable flag for Twitch Rivals",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "ContentCount",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 200.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": 20489901,
         "shortname": "twitchsunglasses",
         "Name": "Purple Sunglasses",
@@ -19225,6 +19294,29 @@
         "isWearable": false,
         "isHoldable": false,
         "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 721798950,
+        "shortname": "vehicle.car_radio",
+        "Name": "Car Radio",
+        "Description": "A small radio to use in cars. Will only work while the car is turned on.",
+        "Category": "Fun",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -20150,8 +20242,8 @@
     {
         "itemid": 174866732,
         "shortname": "weapon.mod.8x.scope",
-        "Name": "16x Zoom Scope",
-        "Description": "A large 16x zoom scope.",
+        "Name": "Variable Zoom Scope",
+        "Description": "A large military-grade scope that can be configured from 4x zoom to 16x zoom.",
         "Category": "Weapon",
         "maxDraggable": 0,
         "ItemType": "Generic",
