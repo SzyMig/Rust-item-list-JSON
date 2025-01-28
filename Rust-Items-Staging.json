@@ -1150,6 +1150,167 @@
         "HasSkins": false
     },
     {
+        "itemid": -19318653,
+        "shortname": "ballista.bolt.hammerhead",
+        "Name": "Hammerhead Bolt",
+        "Description": "Heavy and solid bolt for a ballista, designed to hammer through building.",
+        "Category": "Ammunition",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1987565603,
+        "shortname": "ballista.bolt.incendiary",
+        "Name": "Incendiary Bolt",
+        "Description": "A fire-tipped bolt for a ballista, wrapped in burning cloth, ignites targets upon impact.",
+        "Category": "Ammunition",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1127003365,
+        "shortname": "ballista.bolt.piercer",
+        "Name": "Piercer Bolt",
+        "Description": "A piercing bolt for a ballista, capable of penetrating armored vehicles.",
+        "Category": "Ammunition",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -357442017,
+        "shortname": "ballista.bolt.pitchfork",
+        "Name": "Pitchfork Bolt",
+        "Description": "A wide-impact bolt for a ballista, designed to cause maximum disruption to groups.",
+        "Category": "Ammunition",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -438281480,
+        "shortname": "ballista",
+        "Name": "Ballista",
+        "Description": "A Ballista",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -759279626,
+        "shortname": "ballista.mounted",
+        "Name": "Mounted Ballista",
+        "Description": "A ballista mounted on wheels, designed for mobility and capable of firing bolts at distant targets. Can be towed by horses.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1714509152,
+        "shortname": "ballista.static",
+        "Name": "Ballista",
+        "Description": "A stationary ballista, perfect for defence. Can fire deadly bolts at distant targets.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -2072273936,
         "shortname": "bandage",
         "Name": "Bandage",
@@ -1207,6 +1368,29 @@
         "stackable": 10,
         "quickDespawn": false,
         "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -424687710,
+        "shortname": "barricade.medieval",
+        "Name": "Medieval Barricade",
+        "Description": "A medieval barricade. Designed to block paths and provide defensive cover as well as being an effective tool to fortify your base.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
         "condition": {
             "enabled": false,
             "max": 0.0,
@@ -1368,6 +1552,52 @@
         "stackable": 10,
         "quickDespawn": false,
         "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -479314201,
+        "shortname": "batteringram.head.repair",
+        "Name": "Battering Ram Head",
+        "Description": "",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -187304968,
+        "shortname": "batteringram",
+        "Name": "Battering Ram",
+        "Description": "A reinforced siege weapon built for smashing through wooden and stone constructions with brute force. Must be repaired with high quality metal to keep functioning.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
         "condition": {
             "enabled": false,
             "max": 0.0,
@@ -2783,6 +3013,98 @@
         "HasSkins": false
     },
     {
+        "itemid": 1831249347,
+        "shortname": "catapult.ammo.boulder",
+        "Name": "Scattershot",
+        "Description": "A cluster of heavy rock projectiles for a catapult. Wide spread, pure kinetic damage on impact.",
+        "Category": "Ammunition",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 4,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1827561369,
+        "shortname": "catapult.ammo.explosive",
+        "Name": "Propane Explosive Bomb",
+        "Description": "Explosive projectile for a catapult. A propane-filled keg, devastating to structures.",
+        "Category": "Ammunition",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 4,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -484006286,
+        "shortname": "catapult.ammo.incendiary",
+        "Name": "Firebomb",
+        "Description": "Incendiary projectile for a catapult. A cluster of fuel-filled jugs wrapped in a net, spreading flames on impact.",
+        "Category": "Ammunition",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 4,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1145722690,
+        "shortname": "catapult",
+        "Name": "Catapult",
+        "Description": "An improvised catapult siege weapon. Built for flinging destructive projectiles with questionable accuracy. Can be towed by horses.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 634478325,
         "shortname": "cctv.camera",
         "Name": "CCTV Camera",
@@ -3447,7 +3769,7 @@
         "isWearable": true,
         "isHoldable": false,
         "isUsable": false,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": 573676040,
@@ -3861,6 +4183,29 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -361911645,
+        "shortname": "dart.bone",
+        "Name": "Bone Dart",
+        "Description": "A basic damage dart.",
+        "Category": "Ammunition",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 64,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
         "HasSkins": false
     },
     {
@@ -4298,7 +4643,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": 1221063409,
@@ -10097,6 +10442,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 196784377,
+        "shortname": "improvised.shield",
+        "Name": "Improvised Shield",
+        "Description": "A makeshift metal shield, sturdy but only protects a small area.  Usable with single handed weapons and tools.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": true,
+            "max": 300.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 1538126328,
         "shortname": "industrial.combiner",
         "Name": "Industrial Combiner",
@@ -10232,7 +10600,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -1160621614,
@@ -10715,6 +11083,75 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -427072335,
+        "shortname": "knightsarmour.helmet",
+        "Name": "Knights armour helmet",
+        "Description": "A medieval knights helmet. Made from scrap metal. Excellent craftmanship.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": true,
+            "max": 200.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -945708533,
+        "shortname": "knightsarmour.skirt",
+        "Name": "Knights armour skirt plates",
+        "Description": "A well made set of knights plate that covers the hips and thighs. Made of scrap metal.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": true,
+            "max": 150.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 547862680,
+        "shortname": "knighttorso.armour",
+        "Name": "Knights armour cuirass",
+        "Description": "A well made collection of scrap metal formed into a knights armour.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": true,
+            "max": 500.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
         "HasSkins": false
     },
     {
@@ -11707,6 +12144,52 @@
         "HasSkins": false
     },
     {
+        "itemid": -380502678,
+        "shortname": "medieval.door.double.hinged.metal",
+        "Name": "Medieval Sheet Metal Double Door",
+        "Description": "Medium strength door, vulnerable to explosives.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1654401345,
+        "shortname": "medieval.door.hinged.metal",
+        "Name": "Medieval Sheet Metal Door",
+        "Description": "Medium strength door, vulnerable to explosives.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -583379016,
         "shortname": "megaphone",
         "Name": "Megaphone",
@@ -11937,6 +12420,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 625599716,
+        "shortname": "metal.shield",
+        "Name": "Metal Shield",
+        "Description": "A large sturdy metal shield, keeps arrows and bullets at bay.  Usable\r with single handed weapons and tools.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": true,
+            "max": 300.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 1882709339,
         "shortname": "metalblade",
         "Name": "Metal Blade",
@@ -12067,6 +12573,29 @@
             "enabled": false,
             "max": 0.0,
             "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -482348853,
+        "shortname": "minicrossbow",
+        "Name": "Mini Crossbow",
+        "Description": "A very accurate ranged weapon with a rotating barrel.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
         },
         "Parent": 0,
         "isWearable": false,
@@ -13800,6 +14329,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 969768382,
+        "shortname": "reinforced.wooden.shield",
+        "Name": "Reinforced Wooden Shield",
+        "Description": "A basic wooden shield with added protection, keeps you safe but not for long.  Usable with single handed weapons and tools.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": true,
+            "max": 300.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -1861522751,
         "shortname": "research.table",
         "Name": "Research Table",
@@ -14005,6 +14557,29 @@
         "isHoldable": true,
         "isUsable": true,
         "HasSkins": true
+    },
+    {
+        "itemid": 472505338,
+        "shortname": "rifle.ak.med",
+        "Name": "Medieval AR",
+        "Description": "High damage machine rifle.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "VeryRare",
+        "condition": {
+            "enabled": true,
+            "max": 150.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
     },
     {
         "itemid": 1588298435,
@@ -14234,7 +14809,7 @@
         "isWearable": true,
         "isHoldable": false,
         "isUsable": false,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": 1850456855,
@@ -14257,7 +14832,7 @@
         "isWearable": true,
         "isHoldable": false,
         "isUsable": false,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": 1199391518,
@@ -15839,6 +16414,29 @@
             "enabled": true,
             "max": 400.0,
             "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1290278434,
+        "shortname": "siegetower",
+        "Name": "Siege Tower",
+        "Description": "A rolling siege tower, providing cover and access to enemy bases. Can be locked with your own door. Can be towed by horses.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
         },
         "Parent": 0,
         "isWearable": false,
@@ -20948,6 +21546,29 @@
         },
         "Parent": 0,
         "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1604837581,
+        "shortname": "wooden.shield",
+        "Name": "Wooden Shield",
+        "Description": "A basic wooden shield, won't last very long. Usable with single handed weapons and tools.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": true,
+            "max": 300.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
         "isHoldable": true,
         "isUsable": true,
         "HasSkins": false
