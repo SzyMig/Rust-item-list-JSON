@@ -1275,7 +1275,7 @@
         "AmountType": "Count",
         "stackable": 1,
         "quickDespawn": false,
-        "rarity": "Uncommon",
+        "rarity": "None",
         "condition": {
             "enabled": false,
             "max": 0.0,
@@ -1298,11 +1298,11 @@
         "AmountType": "Count",
         "stackable": 1,
         "quickDespawn": false,
-        "rarity": "Uncommon",
+        "rarity": "None",
         "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
         },
         "Parent": 0,
         "isWearable": false,
@@ -1574,7 +1574,7 @@
         "AmountType": "Count",
         "stackable": 1,
         "quickDespawn": false,
-        "rarity": "Uncommon",
+        "rarity": "None",
         "condition": {
             "enabled": false,
             "max": 0.0,
@@ -1597,7 +1597,7 @@
         "AmountType": "Count",
         "stackable": 1,
         "quickDespawn": false,
-        "rarity": "Uncommon",
+        "rarity": "None",
         "condition": {
             "enabled": false,
             "max": 0.0,
@@ -3092,7 +3092,7 @@
         "AmountType": "Count",
         "stackable": 1,
         "quickDespawn": false,
-        "rarity": "Uncommon",
+        "rarity": "None",
         "condition": {
             "enabled": false,
             "max": 0.0,
@@ -12144,6 +12144,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 814297925,
+        "shortname": "medieval.box.wooden.large",
+        "Name": "Medieval Large Wood Box",
+        "Description": "Keep your things in this wooden storage box. Stores up to 48 items.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -380502678,
         "shortname": "medieval.door.double.hinged.metal",
         "Name": "Medieval Sheet Metal Double Door",
@@ -16432,7 +16455,7 @@
         "AmountType": "Count",
         "stackable": 1,
         "quickDespawn": false,
-        "rarity": "Uncommon",
+        "rarity": "None",
         "condition": {
             "enabled": false,
             "max": 0.0,
