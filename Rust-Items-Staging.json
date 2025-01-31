@@ -12147,7 +12147,7 @@
         "itemid": 814297925,
         "shortname": "medieval.box.wooden.large",
         "Name": "Medieval Large Wood Box",
-        "Description": "Keep your things in this wooden storage box. Stores up to 48 items.",
+        "Description": "Keep your things in this medieval themed wooden storage box. Stores up to 48 items.",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -14538,7 +14538,7 @@
     {
         "itemid": -1335497659,
         "shortname": "rifle.ak.ice",
-        "Name": "Assault Rifle - ICE",
+        "Name": "Ice Assault Rifle",
         "Description": "Ice-covered high damage machine rifle.",
         "Category": "Weapon",
         "maxDraggable": 0,
@@ -14584,8 +14584,8 @@
     {
         "itemid": 472505338,
         "shortname": "rifle.ak.med",
-        "Name": "Medieval AR",
-        "Description": "High damage machine rifle.",
+        "Name": "Medieval Assault Rifle",
+        "Description": "Medieval themed high damage machine rifle.",
         "Category": "Weapon",
         "maxDraggable": 0,
         "ItemType": "Generic",
