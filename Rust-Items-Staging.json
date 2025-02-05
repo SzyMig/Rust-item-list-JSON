@@ -1536,8 +1536,8 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -1767,7 +1767,7 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": false,
-        "isUsable": false,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -1790,7 +1790,7 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": false,
-        "isUsable": false,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -2387,9 +2387,9 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
-        "HasSkins": false
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": true
     },
     {
         "itemid": 850280505,
@@ -3123,8 +3123,8 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -3215,9 +3215,9 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
-        "HasSkins": false
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": true
     },
     {
         "itemid": -1938052175,
@@ -3262,7 +3262,7 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": false,
-        "isUsable": false,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -3836,9 +3836,9 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
-        "HasSkins": false
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": true
     },
     {
         "itemid": 1176355476,
@@ -3952,7 +3952,7 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": false,
-        "isUsable": false,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -4112,9 +4112,9 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
-        "HasSkins": false
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": true
     },
     {
         "itemid": 1488606552,
@@ -4251,7 +4251,7 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": false,
-        "isUsable": false,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -4274,7 +4274,7 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": false,
-        "isUsable": false,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -4365,9 +4365,9 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
-        "HasSkins": false
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": true
     },
     {
         "itemid": 1735402444,
@@ -4733,9 +4733,9 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
-        "HasSkins": false
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": true
     },
     {
         "itemid": 1353298668,
@@ -4879,7 +4879,7 @@
         "itemid": 1588492232,
         "shortname": "drone",
         "Name": "Drone",
-        "Description": "A remote controlled drone operated from the Computer station with a limited range. Easily damaged from impacts. ",
+        "Description": "A remote controlled drone operated from the Computer station with a limited range. Easily damaged from impacts.",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -5630,8 +5630,8 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -6528,7 +6528,7 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": false,
-        "isUsable": false,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -6620,7 +6620,7 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": false,
-        "isUsable": false,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -6895,8 +6895,8 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -6941,8 +6941,8 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -6964,8 +6964,8 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -7010,8 +7010,8 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -7501,7 +7501,7 @@
         "itemid": -2107018088,
         "shortname": "fun.bass",
         "Name": "Shovel Bass",
-        "Description": "Use this stringed together shovel to play some deep, deep tunes.\r",
+        "Description": "Use this stringed together shovel to play some deep, deep tunes.",
         "Category": "Fun",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -7593,7 +7593,7 @@
         "itemid": -2040817543,
         "shortname": "fun.flute",
         "Name": "Pan Flute",
-        "Description": "A set of repurposed PVC pipes that can be used to play a variety of melodies.\r",
+        "Description": "A set of repurposed PVC pipes that can be used to play a variety of melodies.",
         "Category": "Fun",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -7685,7 +7685,7 @@
         "itemid": 273172220,
         "shortname": "fun.trumpet",
         "Name": "Plumber's Trumpet",
-        "Description": "Toot your own horn with this brassy improvised Trumpet.\r",
+        "Description": "Toot your own horn with this brassy improvised Trumpet.",
         "Category": "Fun",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -7708,7 +7708,7 @@
         "itemid": 1784406797,
         "shortname": "fun.tuba",
         "Name": "Sousaphone",
-        "Description": "A collection of used piping that\u2019s been converted into a Tuba. Probably not very hygienic.\r",
+        "Description": "A collection of used piping that\u2019s been converted into a Tuba. Probably not very hygienic.",
         "Category": "Fun",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -9333,9 +9333,9 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
-        "HasSkins": false
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": true
     },
     {
         "itemid": 1578317134,
@@ -9447,10 +9447,10 @@
             "repairable": true
         },
         "Parent": 0,
-        "isWearable": false,
+        "isWearable": true,
         "isHoldable": false,
         "isUsable": false,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": 861513346,
@@ -10208,7 +10208,7 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": false,
-        "isUsable": false,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -10300,7 +10300,7 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": false,
-        "isUsable": false,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -10323,7 +10323,7 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": false,
-        "isUsable": false,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -10346,7 +10346,7 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": false,
-        "isUsable": false,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -10445,7 +10445,7 @@
         "itemid": 196784377,
         "shortname": "improvised.shield",
         "Name": "Improvised Shield",
-        "Description": "A makeshift metal shield, sturdy but only protects a small area.  Usable with single handed weapons and tools. ",
+        "Description": "A makeshift metal shield, sturdy but only protects a small area.  Usable with single handed weapons and tools.",
         "Category": "Attire",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -10598,9 +10598,9 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
-        "HasSkins": false
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": true
     },
     {
         "itemid": -1160621614,
@@ -10667,9 +10667,9 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
-        "HasSkins": false
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": true
     },
     {
         "itemid": 2052270186,
@@ -10943,8 +10943,8 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -13458,7 +13458,7 @@
         "itemid": 1272430949,
         "shortname": "piano",
         "Name": "Wheelbarrow Piano",
-        "Description": "The Piano is a repurposed wheelbarrow that weighs a ton, but makes up for it with a wide range of notes. ",
+        "Description": "The Piano is a repurposed wheelbarrow that weighs a ton, but makes up for it with a wide range of notes.",
         "Category": "Fun",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -13872,7 +13872,7 @@
         "itemid": 1903654061,
         "shortname": "planter.small",
         "Name": "Small Planter Box",
-        "Description": "A small planter with enough room to plant 3 seeds.\r",
+        "Description": "A small planter with enough room to plant 3 seeds.",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -14070,9 +14070,9 @@
             "repairable": false
         },
         "Parent": 0,
-        "isWearable": false,
+        "isWearable": true,
         "isHoldable": false,
-        "isUsable": false,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -14193,7 +14193,7 @@
     {
         "itemid": -1729415579,
         "shortname": "radiationresisttea.advanced",
-        "Name": "Adv. Anti-Rad Tea ",
+        "Name": "Adv. Anti-Rad Tea",
         "Description": "A tea that reduces the amount of health lost due to radiation.",
         "Category": "Food",
         "maxDraggable": 0,
@@ -14355,7 +14355,7 @@
         "itemid": 969768382,
         "shortname": "reinforced.wooden.shield",
         "Name": "Reinforced Wooden Shield",
-        "Description": "A basic wooden shield with added protection, keeps you safe but not for long.  Usable with single handed weapons and tools. \r\n\r\n",
+        "Description": "A basic wooden shield with added protection, keeps you safe but not for long.  Usable with single handed weapons and tools.",
         "Category": "Attire",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -14829,10 +14829,10 @@
             "repairable": true
         },
         "Parent": 0,
-        "isWearable": false,
+        "isWearable": true,
         "isHoldable": false,
         "isUsable": false,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": 1850456855,
@@ -14852,10 +14852,10 @@
             "repairable": true
         },
         "Parent": 0,
-        "isWearable": false,
+        "isWearable": true,
         "isHoldable": false,
         "isUsable": false,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": 1199391518,
@@ -14968,9 +14968,9 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
-        "HasSkins": false
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": true
     },
     {
         "itemid": 1758333838,
@@ -15865,8 +15865,8 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -15888,8 +15888,8 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -15911,8 +15911,8 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -15980,8 +15980,8 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -16003,8 +16003,8 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -16026,8 +16026,8 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -17291,9 +17291,9 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
-        "HasSkins": false
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": true
     },
     {
         "itemid": -1770889433,
@@ -17799,7 +17799,7 @@
         "isWearable": false,
         "isHoldable": false,
         "isUsable": false,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": 1768112091,
@@ -18326,9 +18326,9 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
-        "HasSkins": false
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": true
     },
     {
         "itemid": -1583967946,
@@ -18647,10 +18647,10 @@
             "repairable": true
         },
         "Parent": 0,
-        "isWearable": false,
+        "isWearable": true,
         "isHoldable": false,
         "isUsable": false,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": 1258768145,
@@ -19200,9 +19200,9 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
-        "HasSkins": false
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": true
     },
     {
         "itemid": -1175656359,
@@ -20373,9 +20373,9 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
-        "HasSkins": false
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": true
     },
     {
         "itemid": -450890885,
@@ -20857,7 +20857,7 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": false,
-        "isUsable": false,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -21386,7 +21386,7 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": false,
-        "isUsable": false,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -21577,7 +21577,7 @@
         "itemid": 1604837581,
         "shortname": "wooden.shield",
         "Name": "Wooden Shield",
-        "Description": "A basic wooden shield, won't last very long. Usable with single handed weapons and tools. ",
+        "Description": "A basic wooden shield, won't last very long. Usable with single handed weapons and tools.",
         "Category": "Attire",
         "maxDraggable": 0,
         "ItemType": "Generic",
