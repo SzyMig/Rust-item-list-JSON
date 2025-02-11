@@ -5,7 +5,7 @@ Will automatically update if new items are added to the game.
 
 Current item count (Base game): **977**
 
-Current item count (Staging branch): **978**
+Current item count (Staging branch): **979**
 
 
 
@@ -40,4 +40,4 @@ Current item count (Staging branch): **978**
 - **Has Skins**: `HasSkins`
 
 **CREATED 19/09/23**
-**UPDATED 08/02/25**
+**UPDATED 11/02/25**
