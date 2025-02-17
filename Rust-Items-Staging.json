@@ -1817,6 +1817,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 1348294923,
+        "shortname": "bearmeat.spoiled",
+        "Name": "Spoiled Bear Meat",
+        "Description": "Spoiled Bear Meat. Consuming will damage your health.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 20,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -1273339005,
         "shortname": "bed",
         "Name": "Bed",
@@ -2390,6 +2413,29 @@
         "isHoldable": true,
         "isUsable": true,
         "HasSkins": true
+    },
+    {
+        "itemid": 281099360,
+        "shortname": "bread.loaf",
+        "Name": "Bread Loaf",
+        "Description": "A Loaf of Bread. Eating it provides a small boost to health, hunger",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
     },
     {
         "itemid": 850280505,
@@ -3358,6 +3404,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -2018158920,
+        "shortname": "chickencoop",
+        "Name": "Chicken Coop",
+        "Description": "An enclosure to keep some chickens around.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": -1916473915,
         "shortname": "chineselantern",
         "Name": "Chinese Lantern",
@@ -3588,6 +3657,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -798662404,
+        "shortname": "clone.orchid",
+        "Name": "Orchid Clone",
+        "Description": "A clipping of an orchid plant.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Genetics",
+        "stackable": 50,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 1512054436,
         "shortname": "clone.potato",
         "Name": "Potato Clone",
@@ -3638,6 +3730,75 @@
         "shortname": "clone.red.berry",
         "Name": "Red Berry Clone",
         "Description": "A clipping of a Red Berry Plant.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Genetics",
+        "stackable": 50,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -19360132,
+        "shortname": "clone.rose",
+        "Name": "Rose Clone",
+        "Description": "A clipping of a rose plant.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Genetics",
+        "stackable": 50,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 912235912,
+        "shortname": "clone.sunflower",
+        "Name": "Sunflower Clone",
+        "Description": "A clipping of a sunflower plant.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Genetics",
+        "stackable": 50,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 924598634,
+        "shortname": "clone.wheat",
+        "Name": "Wheat Clone",
+        "Description": "A Clipping of a Wheat Plant.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -3795,6 +3956,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 1431167058,
+        "shortname": "combinedcoolingptea",
+        "Name": "Combined Cooling Tea",
+        "Description": "A tea that decreases your max and core temperature.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -1488398114,
         "shortname": "composter",
         "Name": "Composter",
@@ -3929,6 +4113,98 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1456143403,
+        "shortname": "cookingworkbench",
+        "Name": "Cooking Workbench",
+        "Description": "Used to cook advanced dishes",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 2077323731,
+        "shortname": "coolingtea.advanced",
+        "Name": "Advanced Cooling Tea",
+        "Description": "A tea that decreases your core temperature.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1260229965,
+        "shortname": "coolingtea",
+        "Name": "Basic Cooling Tea",
+        "Description": "A tea that decreasesyour core temperature.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1600691369,
+        "shortname": "coolingtea.pure",
+        "Name": "Pure Cooling Tea",
+        "Description": "A tea that decreases your core temperature.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
         "isUsable": true,
         "HasSkins": false
     },
@@ -4289,6 +4565,29 @@
         "stackable": 20,
         "quickDespawn": false,
         "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -2035449523,
+        "shortname": "deermeat.spoiled",
+        "Name": "Spoiled Deer Meat",
+        "Description": "Spoiled Deer Meat. Consuming will damage your health.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 20,
+        "quickDespawn": false,
+        "rarity": "None",
         "condition": {
             "enabled": false,
             "max": 0.0,
@@ -5102,6 +5401,29 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1858828593,
+        "shortname": "egg",
+        "Name": "Egg",
+        "Description": "An egg, laid by a chicken. Can be eaten or hatched in a chicken coop.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 20,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
         "isUsable": true,
         "HasSkins": false
     },
@@ -6690,6 +7012,29 @@
         "isWearable": false,
         "isHoldable": false,
         "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1130729138,
+        "shortname": "fish.spoiled",
+        "Name": "Spoiled Fish Meat",
+        "Description": "Spoiled Fish Meat. Consuming will damage your health.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 20,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -10718,6 +11063,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 210787554,
+        "shortname": "iotable",
+        "Name": "Engineering Workbench",
+        "Description": "This allows you to craft and unlock electrical, water and industrial items",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": true,
+            "max": 1.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -1163532624,
         "shortname": "jacket",
         "Name": "Jacket",
@@ -12098,6 +12466,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -284748120,
+        "shortname": "maxtemptea",
+        "Name": "Basic Max Temp Tea",
+        "Description": "A tea that decreases your max temperature.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 621915341,
         "shortname": "meat.boar",
         "Name": "Raw Pork",
@@ -12185,8 +12576,8 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -12765,6 +13156,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -1296203562,
+        "shortname": "mintemptea",
+        "Name": "Basic Min Temp Tea",
+        "Description": "A tea that increases your minimum temperature.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 1572152877,
         "shortname": "mintidtag",
         "Name": "Mint ID Tag",
@@ -13124,6 +13538,29 @@
         "condition": {
             "enabled": false,
             "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 734320711,
+        "shortname": "orchid",
+        "Name": "Orchid",
+        "Description": "Smells nice.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Genetics",
+        "stackable": 20,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
             "repairable": false
         },
         "Parent": 0,
@@ -13522,6 +13959,167 @@
         "isHoldable": true,
         "isUsable": true,
         "HasSkins": true
+    },
+    {
+        "itemid": 4384538,
+        "shortname": "pie.apple",
+        "Name": "Apple Pie",
+        "Description": "Always too hot.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 120820987,
+        "shortname": "pie.chicken",
+        "Name": "Chicken Pie",
+        "Description": "Chicken Pie",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1785248332,
+        "shortname": "pie.fish",
+        "Name": "Fish Pie",
+        "Description": "Fishy",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 320438357,
+        "shortname": "pie.hunters",
+        "Name": "Hunters Pie",
+        "Description": "Hunters Pie",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1467878256,
+        "shortname": "pie.pork",
+        "Name": "Pork Pie",
+        "Description": "Oink oink",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1488408786,
+        "shortname": "pie.pumpkin",
+        "Name": "Pumpkin Pie",
+        "Description": "Spooky.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -963820355,
+        "shortname": "pie.survivors",
+        "Name": "Survivor's Pie",
+        "Description": "Greetings, Survivors",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
     },
     {
         "itemid": -1442496789,
@@ -13961,6 +14559,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -430416124,
+        "shortname": "plantpot.single",
+        "Name": "Single Plant Pot",
+        "Description": "A single plant pot.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -1651220691,
         "shortname": "pookie.bear",
         "Name": "Pookie Bear",
@@ -13980,6 +14601,29 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1925646349,
+        "shortname": "porkmeat.spoiled",
+        "Name": "Spoiled Pork Meat",
+        "Description": "Spoiled Pork Meat. Consuming will damage your health.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 20,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
         "isUsable": true,
         "HasSkins": false
     },
@@ -15088,6 +15732,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 1414245519,
+        "shortname": "rose",
+        "Name": "Rose",
+        "Description": "Romantic AF.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Genetics",
+        "stackable": 20,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": 1878053256,
         "shortname": "rowboat",
         "Name": "Rowboat",
@@ -15985,6 +16652,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 1004843240,
+        "shortname": "seed.orchid",
+        "Name": "Orchid Seed",
+        "Description": "Orchid seeds can be found when picking wild Orchids.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Genetics",
+        "stackable": 50,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -2084071424,
         "shortname": "seed.potato",
         "Name": "Potato Seed",
@@ -16035,6 +16725,75 @@
         "shortname": "seed.red.berry",
         "Name": "Red Berry Seed",
         "Description": "These red berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Genetics",
+        "stackable": 50,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1037472336,
+        "shortname": "seed.rose",
+        "Name": "Rose Seed",
+        "Description": "Rose seeds can be found when picking wild Roses.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Genetics",
+        "stackable": 50,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1412103380,
+        "shortname": "seed.sunflower",
+        "Name": "Sunflower Seed",
+        "Description": "Sunflower seeds can be found when picking wild Sunflowers.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Genetics",
+        "stackable": 50,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1790885730,
+        "shortname": "seed.wheat",
+        "Name": "Wheat Seed",
+        "Description": "Wheat seeds can be found when picking wild Wheat plants. These seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more corn and faster growth.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -18676,6 +19435,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -611118083,
+        "shortname": "sunflower",
+        "Name": "Sunflower",
+        "Description": "Very tall.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Genetics",
+        "stackable": 20,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": 352321488,
         "shortname": "sunglasses",
         "Name": "Sunglasses",
@@ -19331,6 +20113,29 @@
         "stackable": 5,
         "quickDespawn": false,
         "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 647240052,
+        "shortname": "triangle.rail.road.planter",
+        "Name": "Triangle Rail Road Planter",
+        "Description": "A triangle planter with enough room to plant 4 seeds.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
         "condition": {
             "enabled": false,
             "max": 0.0,
@@ -20792,6 +21597,98 @@
         "HasSkins": false
     },
     {
+        "itemid": -403606116,
+        "shortname": "warmingcombinedtea",
+        "Name": "Combined Warming Tea",
+        "Description": "A tea that increases your minimum and core temperature.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -351630003,
+        "shortname": "warmingtea.advanced",
+        "Name": "Advanced Warming Tea",
+        "Description": "A tea that increases your core temperature.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1142222427,
+        "shortname": "warmingtea",
+        "Name": "Basic Warming Tea",
+        "Description": "A tea that increases your core temperature.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1742339835,
+        "shortname": "warmingtea.pure",
+        "Name": "Pure Warming Tea",
+        "Description": "A tea that increases your core temperature.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -463122489,
         "shortname": "watchtower.wood",
         "Name": "Watch Tower",
@@ -21340,6 +22237,29 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1178325727,
+        "shortname": "wheat",
+        "Name": "Wheat",
+        "Description": "Wheaty",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Genetics",
+        "stackable": 20,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
         "isUsable": true,
         "HasSkins": false
     },
