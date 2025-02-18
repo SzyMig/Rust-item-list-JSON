@@ -1863,6 +1863,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 184516676,
+        "shortname": "beehive",
+        "Name": "Beehive",
+        "Description": "Stores bees and lets them make honey.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 821588319,
         "shortname": "bicycle",
         "Name": "Bicycle",
@@ -3422,8 +3445,8 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -3887,6 +3910,121 @@
         "HasSkins": false
     },
     {
+        "itemid": -903796529,
+        "shortname": "clothing.mod.armorinsert_asbestos",
+        "Name": "Asbestos Armor Insert",
+        "Description": "Armor insert that adds heat protection.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 300.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 2047789913,
+        "shortname": "clothing.mod.armorinsert_lead",
+        "Name": "Lead Armor Insert",
+        "Description": "Armor insert that adds radiation protection.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 300.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -2103136326,
+        "shortname": "clothing.mod.armorinsert_leather",
+        "Name": "Leather Armor Insert",
+        "Description": "Additional protection that can be inserted into clothing slots.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 300.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1099611828,
+        "shortname": "clothing.mod.armorinsert_metal",
+        "Name": "Metal Armor Insert",
+        "Description": "Additional protection that can be inserted into clothing slots.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 300.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -593892112,
+        "shortname": "clothing.mod.armorinsert_wood",
+        "Name": "Wooden Armor Insert",
+        "Description": "Additional protection that can be inserted into clothing slots.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 300.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": 204391461,
         "shortname": "coal",
         "Name": "Coal :(",
@@ -4223,6 +4361,29 @@
         "condition": {
             "enabled": false,
             "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 368008432,
+        "shortname": "craftingtea_quality",
+        "Name": "Crafting Quality Tea",
+        "Description": "A tea that increases the chances of a higher quality crafting outcome.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
             "repairable": false
         },
         "Parent": 0,
@@ -8717,6 +8878,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 1168916338,
+        "shortname": "grenade.bee",
+        "Name": "Bee Grenade",
+        "Description": "",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 5,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 143803535,
         "shortname": "grenade.f1",
         "Name": "F1 Grenade",
@@ -10277,6 +10461,52 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1601800933,
+        "shortname": "honey",
+        "Name": "Jar of Honey",
+        "Description": "A Jar of Honey. Great in tea.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 20,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1513203236,
+        "shortname": "honeycomb",
+        "Name": "Honeycomb",
+        "Description": "Building blocks of a beehive",
+        "Category": "Resources",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 100,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
         "isUsable": true,
         "HasSkins": false
     },
@@ -13524,6 +13754,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -1811234677,
+        "shortname": "nucleus",
+        "Name": "Beehive Nucleus",
+        "Description": "Required for an artifical Beehive to generate honey and bees.",
+        "Category": "Resources",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": -282193997,
         "shortname": "orangeidtag",
         "Name": "Orange ID Tag",
@@ -14487,7 +14740,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": 1903654061,
@@ -14533,7 +14786,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -804769727,
