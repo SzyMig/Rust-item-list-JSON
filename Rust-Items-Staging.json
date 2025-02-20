@@ -10833,6 +10833,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -724146494,
+        "shortname": "horsemeat.spoiled",
+        "Name": "Spoiled Horse meat",
+        "Description": "Spoiled Horse Meat. Eating it will damage your health.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 20,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 363163265,
         "shortname": "hosetool",
         "Name": "Hose Tool",
@@ -14237,6 +14260,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 2039177180,
+        "shortname": "pie.bear",
+        "Name": "Bear Pie",
+        "Description": "A pie made of Bear meat",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 120820987,
         "shortname": "pie.chicken",
         "Name": "Chicken Pie",
@@ -14355,7 +14401,7 @@
         "itemid": -963820355,
         "shortname": "pie.survivors",
         "Name": "Survivor's Pie",
-        "Description": "Greetings, Survivors",
+        "Description": "Greetings, Survivors. Grants a harvesting buff that increases resources gathered from harvesting corpses.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
