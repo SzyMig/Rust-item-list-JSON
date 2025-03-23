@@ -2258,7 +2258,7 @@
         "shortname": "botabag",
         "Name": "Bota Bag",
         "Description": "A canteen used to carry Water. Left click to drink, right click to fill from water sources, or to pour out.",
-        "Category": "Food",
+        "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
