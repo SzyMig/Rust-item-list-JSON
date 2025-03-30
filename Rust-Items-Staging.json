@@ -4428,9 +4428,9 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
+            "enabled": true,
+            "max": 1.0,
+            "repairable": true
         },
         "Parent": 0,
         "isWearable": false,
@@ -4451,9 +4451,9 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
+            "enabled": true,
+            "max": 1.0,
+            "repairable": true
         },
         "Parent": 0,
         "isWearable": false,
@@ -4474,9 +4474,9 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
+            "enabled": true,
+            "max": 1.0,
+            "repairable": true
         },
         "Parent": 0,
         "isWearable": false,
@@ -10557,6 +10557,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 1420547167,
+        "shortname": "horse.costume",
+        "Name": "Horse Costume",
+        "Description": "An inflatable horse costume. Acting as a replacement for wooden pants, you can equip this item to look as silly as possible.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 80.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": -1323101799,
         "shortname": "horse.saddle.double",
         "Name": "Double Horse Saddle",
@@ -11658,7 +11681,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -2073432256,
@@ -19846,6 +19869,29 @@
         "isWearable": true,
         "isHoldable": false,
         "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 789333045,
+        "shortname": "sunken.knife",
+        "Name": "Sunken Combat Knife",
+        "Description": "A corroded sunken knife designed for close combat engagements, can attack while sprinting. Best in class at harvesting flesh.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
