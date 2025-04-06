@@ -1716,7 +1716,7 @@
         "condition": {
             "enabled": true,
             "max": 100.0,
-            "repairable": false
+            "repairable": true
         },
         "Parent": 0,
         "isWearable": false,
@@ -1829,9 +1829,9 @@
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
         },
         "Parent": 0,
         "isWearable": false,
@@ -1843,7 +1843,7 @@
         "itemid": 184516676,
         "shortname": "beehive",
         "Name": "Beehive",
-        "Description": "Artificial beehive, place a nucleus inside to raise your own bees and produce honeycomb. Happy bees will make honeycomb more quickly.",
+        "Description": "Hand made beehive, place a nucleus inside to raise your own bees and produce honeycomb. Happy bees will make honeycomb more quickly.",
         "Category": "Construction",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -2418,7 +2418,7 @@
         "itemid": 281099360,
         "shortname": "bread.loaf",
         "Name": "Bread Loaf",
-        "Description": "A Loaf of Bread. Eating it provides a small boost to health, hunger",
+        "Description": "A loaf of bread, eating it provides a boost to health, hunger and hydration. Feeding to a horse will provide a boost t o its digestion and dung production for a short time.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -3407,7 +3407,7 @@
         "itemid": -2018158920,
         "shortname": "chickencoop",
         "Name": "Chicken Coop",
-        "Description": "An enclosure to keep some chickens around.",
+        "Description": "An enclosure to keep some chickens around. Chickens with plenty of food, water and sunlight produce more eggs.",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -3913,7 +3913,7 @@
         "itemid": 2047789913,
         "shortname": "clothing.mod.armorinsert_lead",
         "Name": "Lead Armor Insert",
-        "Description": "Lead insert that adds radiation protection for crafted clothes and armor, at the cost of reduced movement speed.",
+        "Description": "Lead insert that adds radiation protection for crafted clothes and armor.",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -3936,7 +3936,7 @@
         "itemid": 1099611828,
         "shortname": "clothing.mod.armorinsert_metal",
         "Name": "Metal Armor Insert",
-        "Description": "Metal insert for crafted clothing and armor, provides extra protection from bullets at the cost of reduced movement speed.",
+        "Description": "Metal insert for crafted clothing and armor, provides extra protection from projectiles.",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -4428,9 +4428,9 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
+            "enabled": true,
+            "max": 1.0,
+            "repairable": true
         },
         "Parent": 0,
         "isWearable": false,
@@ -4451,9 +4451,9 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
+            "enabled": true,
+            "max": 1.0,
+            "repairable": true
         },
         "Parent": 0,
         "isWearable": false,
@@ -4474,9 +4474,9 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
+            "enabled": true,
+            "max": 1.0,
+            "repairable": true
         },
         "Parent": 0,
         "isWearable": false,
@@ -4729,6 +4729,29 @@
         "condition": {
             "enabled": false,
             "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1494014226,
+        "shortname": "discord.trophy",
+        "Name": "Discord Trophy",
+        "Description": "A companion that reminds you of your youth.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
             "repairable": false
         },
         "Parent": 0,
@@ -5454,7 +5477,7 @@
         "itemid": 1858828593,
         "shortname": "egg",
         "Name": "Egg",
-        "Description": "An egg, laid by a chicken. Can be eaten or hatched in a chicken coop.",
+        "Description": "An egg laid by a chicken, will hatch in a coop. Can be eaten raw for a small boost to health, hydration and hydration, or added to some recipes at a cooking workbench for greater benefits.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -8188,6 +8211,52 @@
         "HasSkins": false
     },
     {
+        "itemid": -401905610,
+        "shortname": "gates.external.high.adobe",
+        "Name": "High External Adobe Gate",
+        "Description": "A high stone gate, allowing access in and out of your compound.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 2137338174,
+        "shortname": "gates.external.high.frontier",
+        "Name": "High External Frontier Gate",
+        "Description": "A high wooden gate, allowing access in and out of your compound.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -691113464,
         "shortname": "gates.external.high.stone",
         "Name": "High External Stone Gate",
@@ -8208,7 +8277,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -335089230,
@@ -8231,7 +8300,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": 479143914,
@@ -10399,8 +10468,8 @@
         "itemid": -1513203236,
         "shortname": "honeycomb",
         "Name": "Honeycomb",
-        "Description": "These building blocks of a beehive can turn into honey or nuclei. Cooking them in a furnace guarantees honey.",
-        "Category": "Resources",
+        "Description": "Building blocks of a hive, taken from a natural beehive. Can be cooked in a furnace to guarantee honey, or extracted for honey and a small chance of a nucleus.",
+        "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
@@ -10506,6 +10575,29 @@
         },
         "Parent": 0,
         "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1420547167,
+        "shortname": "horse.costume",
+        "Name": "Horse Costume",
+        "Description": "An inflatable horse costume. Acting as a replacement for wooden pants, you can equip this item to look as silly as possible.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 80.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
         "isHoldable": false,
         "isUsable": false,
         "HasSkins": false
@@ -11612,7 +11704,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -2073432256,
@@ -14102,7 +14194,7 @@
         "itemid": 4384538,
         "shortname": "pie.apple",
         "Name": "Apple Pie",
-        "Description": "A delicious apple pie, always too hot. Provides a boost to hunger, health and hydration. Gives better night vision and lets you to see tree markings and ore hotspots for a short time.",
+        "Description": "A delicious apple pie, always too hot. Provides a boost to hunger, health and hydration. Gives better night vision, including tree markings and ore hotspots, for a short time.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -14125,7 +14217,7 @@
         "itemid": 2039177180,
         "shortname": "pie.bear",
         "Name": "Bear Pie",
-        "Description": "A pie made of bear meat, provides a boost to hunger, health and hydration, and increases effect of harvesting teas but reduces their duration.",
+        "Description": "A pie made of bear meat, provides a boost to hunger, health and hydration. Increases effect of harvesting teas but reduces their duration.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -14148,7 +14240,7 @@
         "itemid": 120820987,
         "shortname": "pie.chicken",
         "Name": "Chicken Pie",
-        "Description": "Just like mom used to make. Provides a boost to hunger, health and hydration, and increases the chance of better genes from crops for short time.",
+        "Description": "Just like mom used to make. Provides a boost to hunger, health and hydration. Increases the chance of better genes from crops for short time.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -14171,7 +14263,7 @@
         "itemid": -1785248332,
         "shortname": "pie.fish",
         "Name": "Fish Pie",
-        "Description": "Delightful fish pie. Provides a boost to hunger, health and hydration and increases base comfort level for a short time.",
+        "Description": "Delightful fish pie. Provides a boost to hunger, health and hydration. Increases base comfort level for a short time.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -14194,7 +14286,7 @@
         "itemid": 320438357,
         "shortname": "pie.hunters",
         "Name": "Hunters Pie",
-        "Description": "Tasty hunters pie, made with real deer. Provides a boost to hunger, health and hydration, and reduces bleeding for a short time.",
+        "Description": "Tasty hunters pie, made with real deer. Provides a boost to hunger, health and hydration. Reduces bleeding for a short time.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -14217,7 +14309,7 @@
         "itemid": 1467878256,
         "shortname": "pie.pork",
         "Name": "Pork Pie",
-        "Description": "Tempting pork pie, provides a boost to hunger, health and hydration, and improves healing rate from other sources for a short time.",
+        "Description": "Tempting pork pie, provides a boost to hunger, health and hydration. Improves healing rate from other sources for a short time.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -14240,7 +14332,7 @@
         "itemid": -1488408786,
         "shortname": "pie.pumpkin",
         "Name": "Pumpkin Pie",
-        "Description": "Spooky pumpkin pie, Provides a boost to health, hunger and hydration, and increases maximum health for a short time.",
+        "Description": "Spooky pumpkin pie, provides a boost to health, hunger and hydration.\nIncreases maximum health for a short time.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -14263,7 +14355,7 @@
         "itemid": -963820355,
         "shortname": "pie.survivors",
         "Name": "Survivor's Pie",
-        "Description": "It's people. Survivor's pie is made out of people. Provides a boost to health, hunger and hydration, and increases yield when harvesting corpses for a short time.",
+        "Description": "It's people. Survivor's pie is made out of people. Provides a boost to health, hunger and hydration. Increases yield when harvesting corpses for a short time.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -16123,6 +16215,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -173268127,
+        "shortname": "rustige_egg_g",
+        "Name": "Rustig\u00e9 Egg - Cerulean",
+        "Description": "A beautiful hand crafted cerulean and gold egg, with a miniature cargo ship scene contained inside.",
+        "Category": "Misc",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -1978999529,
         "shortname": "salvaged.cleaver",
         "Name": "Salvaged Cleaver",
@@ -16954,7 +17069,7 @@
         "itemid": -1790885730,
         "shortname": "seed.wheat",
         "Name": "Wheat Seed",
-        "Description": "Wheat seeds can be found when picking wild Wheat plants. These seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more corn and faster growth.",
+        "Description": "Wheat seeds, found when eating wheat or harvesting wild crops. Plant in the ground or a planter to grow more.  Seeds grown in good conditions will have higher yields and grow faster.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -18414,7 +18529,7 @@
         "condition": {
             "enabled": true,
             "max": 100.0,
-            "repairable": false
+            "repairable": true
         },
         "Parent": 0,
         "isWearable": false,
@@ -19780,6 +19895,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 789333045,
+        "shortname": "sunken.knife",
+        "Name": "Sunken Combat Knife",
+        "Description": "A corroded sunken knife designed for close combat engagements, can attack while sprinting. Best in class at harvesting flesh.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -1003665711,
         "shortname": "supertea",
         "Name": "Super Serum",
@@ -21128,7 +21266,7 @@
         "condition": {
             "enabled": true,
             "max": 100.0,
-            "repairable": false
+            "repairable": true
         },
         "Parent": 0,
         "isWearable": false,
@@ -21183,6 +21321,52 @@
         "HasSkins": false
     },
     {
+        "itemid": 756890702,
+        "shortname": "wall.external.high.adobe",
+        "Name": "High External Adobe Wall",
+        "Description": "A high stone wall used to keep people off your property.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 63265850,
+        "shortname": "wall.external.high.frontier",
+        "Name": "High External Frontier Wall",
+        "Description": "A high stone wall used to keep people off your property.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -985781766,
         "shortname": "wall.external.high.ice",
         "Name": "High Ice Wall",
@@ -21226,7 +21410,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -967648160,
@@ -21249,7 +21433,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -956706906,
@@ -22520,7 +22704,7 @@
         "itemid": -2094954543,
         "shortname": "wood.armor.helmet",
         "Name": "Wood Armor Helmet",
-        "Description": "A shoddy helmet made from Wood and Cloth.",
+        "Description": "A shoddy helmet made from simple materials, provides some basic protection from melee and ranged attacks.",
         "Category": "Attire",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -22543,7 +22727,7 @@
         "itemid": 418081930,
         "shortname": "wood.armor.jacket",
         "Name": "Wood Chestplate",
-        "Description": "A shoddy piece of body armor made from Wood and rope.",
+        "Description": "A shoddy piece of body armor made from simple materials, provides some basic protection from melee and ranged attacks.",
         "Category": "Attire",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -22566,7 +22750,7 @@
         "itemid": 832133926,
         "shortname": "wood.armor.pants",
         "Name": "Wood Armor Pants",
-        "Description": "A shoddy piece of leg armor made from Wood and rope.",
+        "Description": "A shoddy piece of leg armor made from simple materials, provides some basic protection from melee and ranged attacks.",
         "Category": "Attire",
         "maxDraggable": 0,
         "ItemType": "Generic",
