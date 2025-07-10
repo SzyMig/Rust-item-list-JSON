@@ -23,6 +23,52 @@
         "HasSkins": false
     },
     {
+        "itemid": -880494890,
+        "shortname": "abyss.barrel.horizontal",
+        "Name": "Abyss Horizontal Storage Tank",
+        "Description": "Horizontal Abyss container taken from the depths of the ocean",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": true
+    },
+    {
+        "itemid": -919882824,
+        "shortname": "abyss.barrel.vertical",
+        "Name": "Abyss Vertical Storage Tank",
+        "Description": "Vertical Abyss container taken from the depths of the ocean",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": true
+    },
+    {
         "itemid": -1498613415,
         "shortname": "advancedcoolingtea",
         "Name": "Advanced Cooling Tea",
@@ -5451,6 +5497,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -451310088,
+        "shortname": "documents",
+        "Name": "Documents",
+        "Description": "A stack of technical looking documents.",
+        "Category": "Tool",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": 1223900335,
         "shortname": "dogtagneutral",
         "Name": "Dog Tag",
@@ -8767,6 +8836,29 @@
         "shortname": "gates.external.high.frontier",
         "Name": "High External Frontier Gate",
         "Description": "A high wooden gate, allowing access in and out of your compound.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1442339204,
+        "shortname": "gates.external.high.legacy",
+        "Name": "High External Legacy Gate",
+        "Description": "A legacy themed wooden gate to keep the untamed wilderness away from your property, it's seen better days. Replaces the High External Wooden Wall.",
         "Category": "Construction",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -22400,6 +22492,29 @@
         "isHoldable": true,
         "isUsable": true,
         "HasSkins": true
+    },
+    {
+        "itemid": -1993883724,
+        "shortname": "wall.external.high.legacy",
+        "Name": "High External Legacy Wall",
+        "Description": "A legacy themed wooden wall to keep the untamed wilderness away from your property, made with questionable carpentry. Replaces the High External Wooden Wall.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
     },
     {
         "itemid": -967648160,
