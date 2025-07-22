@@ -4462,6 +4462,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 594041190,
+        "shortname": "compass",
+        "Name": "Compass",
+        "Description": "A handy tool which indicates which direction you're facing.",
+        "Category": "Tool",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 60.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -1488398114,
         "shortname": "composter",
         "Name": "Composter",
@@ -12975,7 +12998,7 @@
         "itemid": -850982208,
         "shortname": "lock.key",
         "Name": "Key Lock",
-        "Description": "Place on a door to avoid any unwelcome guests. To craft your key first place the lock on a door and hold E while looking at the Key lock and select 'Create Key', a key will now be added to your crafting queue.\n\nIf the key is lost, you cannot make another, so don't forget to make extras and put them in a safe place!",
+        "Description": "Place on a door to prevent unwelcome guests. You can create a key to share with your friends, don't let it fall in the wrong hands!",
         "Category": "Construction",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -15275,7 +15298,7 @@
         "itemid": 1953903201,
         "shortname": "pistol.nailgun",
         "Name": "Nailgun",
-        "Description": "A construction tool turned deadly",
+        "Description": "A construction tool turned deadly.",
         "Category": "Weapon",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -16631,7 +16654,7 @@
     {
         "itemid": -699558439,
         "shortname": "roadsign.gloves",
-        "Name": "Roadsign Gloves",
+        "Name": "Road Sign Gloves",
         "Description": "Gloves made out of metal, offer a good amount of protection to the upper body.",
         "Category": "Attire",
         "maxDraggable": 0,
@@ -20219,7 +20242,7 @@
     {
         "itemid": -1100422738,
         "shortname": "spinner.wheel",
-        "Name": "Spinning wheel",
+        "Name": "Spinning Wheel",
         "Description": "An interactive spinning wheel.",
         "Category": "Items",
         "maxDraggable": 0,
