@@ -43,7 +43,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": true
+        "HasSkins": false
     },
     {
         "itemid": -919882824,
@@ -66,7 +66,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": true
+        "HasSkins": false
     },
     {
         "itemid": -1498613415,
@@ -2665,7 +2665,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": 833533164,
@@ -3519,6 +3519,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -463012608,
+        "shortname": "chair.ejector.seat",
+        "Name": "Salvaged Ejector Seat",
+        "Description": "A chair made from an ejector seat. A decorative item which provides comfort while seated. Stays put.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 5,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -1944704288,
         "shortname": "chair.icethrone",
         "Name": "Ice Throne",
@@ -4258,7 +4281,7 @@
         "itemid": -593892112,
         "shortname": "clothing.mod.armorinsert_wood",
         "Name": "Wooden Armor Insert",
-        "Description": "Wood insert for crafted clothes and armor, provides some extra protection from bullets and melee. ",
+        "Description": "Wood insert for crafted clothes and armor, provides some extra protection from bullets and melee.",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -4453,6 +4476,29 @@
         "condition": {
             "enabled": false,
             "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 594041190,
+        "shortname": "compass",
+        "Name": "Compass",
+        "Description": "A handy tool which indicates which direction you're facing. Will reveal your location on the map in Hardcore mode if equipped on your belt.",
+        "Category": "Tool",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 60.0,
             "repairable": true
         },
         "Parent": 0,
@@ -4988,29 +5034,6 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
-    },
-    {
-        "itemid": -361911645,
-        "shortname": "dart.bone",
-        "Name": "Bone Dart",
-        "Description": "A basic damage dart.",
-        "Category": "Ammunition",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 64,
-        "quickDespawn": false,
-        "rarity": "None",
-        "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
-        },
-        "Parent": 0,
-        "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
         "HasSkins": false
     },
     {
@@ -5845,7 +5868,7 @@
         "itemid": 1588492232,
         "shortname": "drone",
         "Name": "Drone",
-        "Description": "A remote controlled drone operated from the Computer station with a limited range. Easily damaged from impacts. ",
+        "Description": "A remote controlled drone operated from the Computer station with a limited range. Easily damaged from impacts.",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -8513,7 +8536,7 @@
         "itemid": -2107018088,
         "shortname": "fun.bass",
         "Name": "Shovel Bass",
-        "Description": "Use this stringed together shovel to play some deep, deep tunes.\r",
+        "Description": "Use this stringed together shovel to play some deep, deep tunes.",
         "Category": "Fun",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -8605,7 +8628,7 @@
         "itemid": -2040817543,
         "shortname": "fun.flute",
         "Name": "Pan Flute",
-        "Description": "A set of repurposed PVC pipes that can be used to play a variety of melodies.\r",
+        "Description": "A set of repurposed PVC pipes that can be used to play a variety of melodies.",
         "Category": "Fun",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -8697,7 +8720,7 @@
         "itemid": 273172220,
         "shortname": "fun.trumpet",
         "Name": "Plumber's Trumpet",
-        "Description": "Toot your own horn with this brassy improvised Trumpet.\r",
+        "Description": "Toot your own horn with this brassy improvised Trumpet.",
         "Category": "Fun",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -8720,7 +8743,7 @@
         "itemid": 1784406797,
         "shortname": "fun.tuba",
         "Name": "Sousaphone",
-        "Description": "A collection of used piping that\u2019s been converted into a Tuba. Probably not very hygienic.\r",
+        "Description": "A collection of used piping that\u2019s been converted into a Tuba. Probably not very hygienic.",
         "Category": "Fun",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -8813,29 +8836,6 @@
         "shortname": "gates.external.high.adobe",
         "Name": "High External Adobe Gate",
         "Description": "A high stone gate, allowing access in and out of your compound.",
-        "Category": "Construction",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 1,
-        "quickDespawn": false,
-        "rarity": "None",
-        "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
-        },
-        "Parent": 0,
-        "isWearable": false,
-        "isHoldable": true,
-        "isUsable": true,
-        "HasSkins": false
-    },
-    {
-        "itemid": 2137338174,
-        "shortname": "gates.external.high.frontier",
-        "Name": "High External Frontier Gate",
-        "Description": "A high wooden gate, allowing access in and out of your compound.",
         "Category": "Construction",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -10544,7 +10544,7 @@
         "AmountType": "Count",
         "stackable": 1,
         "quickDespawn": false,
-        "rarity": "Rare",
+        "rarity": "None",
         "condition": {
             "enabled": true,
             "max": 450.0,
@@ -10637,6 +10637,29 @@
         "stackable": 1,
         "quickDespawn": false,
         "rarity": "Rare",
+        "condition": {
+            "enabled": true,
+            "max": 450.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1065594600,
+        "shortname": "hazmatsuit.pilot",
+        "Name": "Pilot Hazmat",
+        "Description": "A hazmat suit made from a fighter pilot's flight suit.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
         "condition": {
             "enabled": true,
             "max": 450.0,
@@ -11710,7 +11733,7 @@
         "itemid": 196784377,
         "shortname": "improvised.shield",
         "Name": "Improvised Shield",
-        "Description": "A makeshift metal shield, sturdy but only protects a small area. Usable with single handed weapons and tools. ",
+        "Description": "A makeshift metal shield, sturdy but only protects a small area. Usable with single handed weapons and tools.",
         "Category": "Attire",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -12972,6 +12995,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 1586884551,
+        "shortname": "lock.code.a.pilot",
+        "Name": "Flight Control Codelock",
+        "Description": "An electronic lock made of airplane parts. Locked and unlocked with four-digit code.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 1159991980,
         "shortname": "lock.code",
         "Name": "Code Lock",
@@ -12992,13 +13038,13 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -850982208,
         "shortname": "lock.key",
         "Name": "Key Lock",
-        "Description": "Place on a door to avoid any unwelcome guests. To craft your key first place the lock on a door and hold E while looking at the Key lock and select 'Create Key', a key will now be added to your crafting queue.\n\nIf the key is lost, you cannot make another, so don't forget to make extras and put them in a safe place!",
+        "Description": "Place on a door to prevent unwelcome guests. You can create a key to share with your friends, don't let it fall in the wrong hands!",
         "Category": "Construction",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -14907,7 +14953,7 @@
         "itemid": 1272430949,
         "shortname": "piano",
         "Name": "Wheelbarrow Piano",
-        "Description": "The Piano is a repurposed wheelbarrow that weighs a ton, but makes up for it with a wide range of notes. ",
+        "Description": "The Piano is a repurposed wheelbarrow that weighs a ton, but makes up for it with a wide range of notes.",
         "Category": "Fun",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -15180,6 +15226,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 537946062,
+        "shortname": "pilot.hazmat.box.wooden",
+        "Name": "Black Box",
+        "Description": "Keep your things in this Black Box. Stores up to 18 items.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -1442496789,
         "shortname": "pinata",
         "Name": "Pinata",
@@ -15298,7 +15367,7 @@
         "itemid": 1953903201,
         "shortname": "pistol.nailgun",
         "Name": "Nailgun",
-        "Description": "A construction tool turned deadly",
+        "Description": "A construction tool turned deadly.",
         "Category": "Weapon",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -15385,6 +15454,29 @@
         "isHoldable": true,
         "isUsable": true,
         "HasSkins": true
+    },
+    {
+        "itemid": 1673224590,
+        "shortname": "pistol.semiauto.a.m15",
+        "Name": "M15 Semi-Automatic Pistol",
+        "Description": "A special issue Air Force semi-automatic pistol, fires rapidly and with good accuracy.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
     },
     {
         "itemid": 818877484,
@@ -15551,7 +15643,7 @@
         "itemid": 1903654061,
         "shortname": "planter.small",
         "Name": "Small Planter Box",
-        "Description": "A small planter with enough room to plant 3 seeds.\r",
+        "Description": "A small planter with enough room to plant 3 seeds.",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -16654,7 +16746,7 @@
     {
         "itemid": -699558439,
         "shortname": "roadsign.gloves",
-        "Name": "Roadsign Gloves",
+        "Name": "Road Sign Gloves",
         "Description": "Gloves made out of metal, offer a good amount of protection to the upper body.",
         "Category": "Attire",
         "maxDraggable": 0,
@@ -20242,7 +20334,7 @@
     {
         "itemid": -1100422738,
         "shortname": "spinner.wheel",
-        "Name": "Spinning wheel",
+        "Name": "Spinning Wheel",
         "Description": "An interactive spinning wheel.",
         "Category": "Items",
         "maxDraggable": 0,
@@ -22425,29 +22517,6 @@
         "HasSkins": false
     },
     {
-        "itemid": 63265850,
-        "shortname": "wall.external.high.frontier",
-        "Name": "High External Frontier Wall",
-        "Description": "A high stone wall used to keep people off your property.",
-        "Category": "Construction",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 10,
-        "quickDespawn": false,
-        "rarity": "None",
-        "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
-        },
-        "Parent": 0,
-        "isWearable": false,
-        "isHoldable": true,
-        "isUsable": true,
-        "HasSkins": false
-    },
-    {
         "itemid": -985781766,
         "shortname": "wall.external.high.ice",
         "Name": "High Ice Wall",
@@ -22974,29 +23043,6 @@
         "isWearable": false,
         "isHoldable": false,
         "isUsable": false,
-        "HasSkins": true
-    },
-    {
-        "itemid": -1501434104,
-        "shortname": "wallpaper",
-        "Name": "Wallpaper",
-        "Description": "Transform your base from a rusty shack to a cozy hideout with this sleek wallpaper. A nice touch of style - until the next raid, at least.",
-        "Category": "Items",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 10,
-        "quickDespawn": false,
-        "rarity": "None",
-        "condition": {
-            "enabled": false,
-            "max": 100.0,
-            "repairable": false
-        },
-        "Parent": 0,
-        "isWearable": false,
-        "isHoldable": true,
-        "isUsable": true,
         "HasSkins": true
     },
     {

@@ -43,7 +43,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": true
+        "HasSkins": false
     },
     {
         "itemid": -919882824,
@@ -66,7 +66,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": true
+        "HasSkins": false
     },
     {
         "itemid": -1498613415,
@@ -2665,7 +2665,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": 833533164,
@@ -3511,6 +3511,29 @@
             "enabled": true,
             "max": 100.0,
             "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -463012608,
+        "shortname": "chair.ejector.seat",
+        "Name": "Salvaged Ejector Seat",
+        "Description": "A chair made from an ejector seat. A decorative item which provides comfort while seated. Stays put.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 5,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
+            "repairable": false
         },
         "Parent": 0,
         "isWearable": false,
@@ -10649,6 +10672,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 1065594600,
+        "shortname": "hazmatsuit.pilot",
+        "Name": "Pilot Hazmat Suit",
+        "Description": "A hazmat suit made from a fighter pilot flight suit.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 450.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": -560304835,
         "shortname": "hazmatsuit.spacesuit",
         "Name": "Space Suit",
@@ -12972,6 +13018,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 1586884551,
+        "shortname": "lock.code.a.pilot",
+        "Name": "Flight Control Codelock",
+        "Description": "An electronic lock made of airplane parts. Locked and unlocked with four-digit code.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 1159991980,
         "shortname": "lock.code",
         "Name": "Code Lock",
@@ -12992,7 +13061,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -850982208,
@@ -15180,6 +15249,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 537946062,
+        "shortname": "pilot.hazmat.box.wooden",
+        "Name": "Black Box",
+        "Description": "Keep your things in this Black Box. Stores up to 18 items.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -1442496789,
         "shortname": "pinata",
         "Name": "Pinata",
@@ -15385,6 +15477,29 @@
         "isHoldable": true,
         "isUsable": true,
         "HasSkins": true
+    },
+    {
+        "itemid": 1673224590,
+        "shortname": "pistol.semiauto.a.m15",
+        "Name": "M15 Semi-Automatic Pistol",
+        "Description": "A special issue Air Force semi-automatic pistol, fires rapidly and with good accuracy.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
     },
     {
         "itemid": 818877484,
