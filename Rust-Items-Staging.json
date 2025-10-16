@@ -92,11 +92,11 @@
         "HasSkins": false
     },
     {
-        "itemid": -477757067,
+        "itemid": -1896395719,
         "shortname": "advancedblueprintfragment",
         "Name": "Advanced Blueprint Fragment",
         "Description": "Precision schematics with complex information, multiple fragments are necessary for crafting a Tier 3 Workbench.",
-        "Category": "Resources",
+        "Category": "Component",
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
@@ -1729,7 +1729,7 @@
         "shortname": "basicblueprintfragment",
         "Name": "Basic Blueprint Fragment",
         "Description": "Damaged diagrams containing partial information to constuct a Tier 2 Workbench for advanced crafting. Several fragments are needed.\n\n20 Basic Fragments can be pieced together to make an Advanced Fragment.",
-        "Category": "Resources",
+        "Category": "Component",
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
@@ -3726,6 +3726,52 @@
         "HasSkins": false
     },
     {
+        "itemid": 2130820932,
+        "shortname": "charity.plushy.01",
+        "Name": "Cancer Research UK Plushie",
+        "Description": "A soft and squishy plush that provides comfort in your base. First sold on the Rust store in October 2025 to support Cancer Research UK, each purchase helped fund real-world cancer research.\n\nwww.cancerresearchuk.org",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 2130820933,
+        "shortname": "charity.plushy.02",
+        "Name": "Ronald McDonald House UK Plushie",
+        "Description": "A soft and squishy plush that provides comfort in your base. First sold on the Rust store in October 2025 to support Ronald McDonald House Charities UK, helping ease the burden on families by providing free \u2018home away from home\u2019 accommodation near hospitals.\n\nwww.rmhc.org.uk",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 1973684065,
         "shortname": "chicken.burned",
         "Name": "Burnt Chicken",
@@ -5615,7 +5661,7 @@
         "itemid": -2022172587,
         "shortname": "diving.tank",
         "Name": "Diving Tank",
-        "Description": "An oxygen tank that enables breathing under water for a period of time. Can be refilled at a workbench.",
+        "Description": "An oxygen tank that enables breathing under water for a period of time. Can be refilled at a workbench or repair bench.",
         "Category": "Attire",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -9181,6 +9227,29 @@
         "shortname": "gates.external.high.adobe",
         "Name": "High External Adobe Gate",
         "Description": "A high stone gate, allowing access in and out of your compound.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 2137338174,
+        "shortname": "gates.external.high.frontier",
+        "Name": "High External Frontier Gate",
+        "Description": "A Frontier themed wooden gate to keep the untamed wilderness away from your property, it's seen better days. Replaces the High External Wooden Wall.",
         "Category": "Construction",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -22908,6 +22977,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 63265850,
+        "shortname": "wall.external.high.frontier",
+        "Name": "High External Frontier Wall",
+        "Description": "A Frontier themed wooden wall to keep the untamed wilderness away from your property, made with questionable carpentry. Replaces the High External Wooden Wall.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -985781766,
         "shortname": "wall.external.high.ice",
         "Name": "High Ice Wall",
@@ -23434,6 +23526,29 @@
         "isWearable": false,
         "isHoldable": false,
         "isUsable": false,
+        "HasSkins": true
+    },
+    {
+        "itemid": -1501434104,
+        "shortname": "wallpaper",
+        "Name": "Wallpaper",
+        "Description": "Transform your base from a rusty shack to a cozy hideout with this sleek wallpaper. A nice touch of style - until the next raid, at least.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": true
     },
     {

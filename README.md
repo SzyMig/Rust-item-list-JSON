@@ -3,9 +3,9 @@ Was looking for a full item list of all of the items in Rust for a personal proj
 and couldn't find any that were up-to-date, so I combined all of the files in the games directory **[\\Steam\steamapps\common\rust\bundles\items]** and combined all of the Json files into one for your convenience. 
 Will automatically update if new items are added to the game. 
 
-Current item count (Base game): **1104**
+Current item count (Base game): **1109**
 
-Current item count (Staging branch): **1108**
+Current item count (Staging branch): **1113**
 
 
 
@@ -40,4 +40,4 @@ Current item count (Staging branch): **1108**
 - **Has Skins**: `HasSkins`
 
 **CREATED 19/09/23**
-**UPDATED 26/09/25**
+**UPDATED 16/10/25**
