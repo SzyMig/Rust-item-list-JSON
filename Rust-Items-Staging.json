@@ -1,5 +1,143 @@
 [
     {
+        "itemid": -226151558,
+        "shortname": "2module car chassis",
+        "Name": "2 Module Car Chassis",
+        "Description": "2 Module Car Chassis",
+        "Category": "Misc",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 300.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -866121090,
+        "shortname": "2module car",
+        "Name": "2 Module Car",
+        "Description": "A motorbike.",
+        "Category": "Misc",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 300.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1482871705,
+        "shortname": "3module car chassis",
+        "Name": "3 Module Car Chassis",
+        "Description": "3 Module Car Chassis",
+        "Category": "Misc",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 300.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -831725027,
+        "shortname": "3module car",
+        "Name": "3 Module Car",
+        "Description": "3 Module Car",
+        "Category": "Misc",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 300.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 385099196,
+        "shortname": "4module car chassis",
+        "Name": "4 Module Car Chassis",
+        "Description": "4 Module Car Chassis",
+        "Category": "Misc",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 300.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -935322684,
+        "shortname": "4module car",
+        "Name": "4 Module Car",
+        "Description": "4 Module Car",
+        "Category": "Misc",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 300.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": 1840570710,
         "shortname": "abovegroundpool",
         "Name": "Above Ground Pool",
@@ -1331,6 +1469,29 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 405904531,
+        "shortname": "ball",
+        "Name": "Soccer Ball",
+        "Description": "Soccer Ball",
+        "Category": "Misc",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 850.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
         "HasSkins": false
     },
     {
@@ -3036,6 +3197,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 1732236518,
+        "shortname": "caboose",
+        "Name": "Caboose",
+        "Description": "Caboose",
+        "Category": "Misc",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 1000.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": 1783512007,
         "shortname": "cactusflesh",
         "Name": "Cactus Flesh",
@@ -3631,7 +3815,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -463012608,
@@ -10258,6 +10442,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 696029539,
+        "shortname": "hab",
+        "Name": "Hot Air Balloon",
+        "Description": "A Hot Air Balloon.",
+        "Category": "Misc",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": -1759188988,
         "shortname": "habrepair",
         "Name": "Hot Air Balloon",
@@ -10900,6 +11107,29 @@
         "isHoldable": true,
         "isUsable": true,
         "HasSkins": true
+    },
+    {
+        "itemid": -902423513,
+        "shortname": "hazmat.krieg",
+        "Name": "Krieg Hazmat",
+        "Description": "A Krieg Hazmat Suit, standard issue for those who never retreat.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 450.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
     },
     {
         "itemid": 1578317134,
@@ -11679,6 +11909,29 @@
         },
         "Parent": 0,
         "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 82772055,
+        "shortname": "horse",
+        "Name": "Horse",
+        "Description": "Horse",
+        "Category": "Misc",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 850.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
         "isHoldable": false,
         "isUsable": false,
         "HasSkins": false
@@ -12949,6 +13202,121 @@
         "HasSkins": false
     },
     {
+        "itemid": -1770281406,
+        "shortname": "krieg.chainsword",
+        "Name": "Krieg chainsword",
+        "Description": "A brutal tool of war, roaring to life with every swing.",
+        "Category": "Tool",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -420889602,
+        "shortname": "krieg.shotgun",
+        "Name": "Krieg Shotgun",
+        "Description": "Heavy, reliable, and unforgiving. A weapon that never hesitates.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 652793345,
+        "shortname": "krieg.storage.horizontal",
+        "Name": "Krieg Storage Crates",
+        "Description": "Military-grade crates designed for efficient storage and durability. A staple of any well-supplied outpost.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1305765685,
+        "shortname": "krieg.storage.vertical",
+        "Name": "Krieg Storage Barrel",
+        "Description": "Industrial barrels repurposed for the front lines. Sturdy, disciplined, and unmistakably Krieg.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -874650016,
+        "shortname": "kriegbackpack",
+        "Name": "Krieg Large Backpack",
+        "Description": "Carry your essentials in a rugged military pack, built for endurance and practicality.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "ContentCount",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 200.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": -316250604,
         "shortname": "ladder.wooden.wall",
         "Name": "Wooden Ladder",
@@ -13015,7 +13383,7 @@
         "isWearable": true,
         "isHoldable": false,
         "isUsable": false,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -489848205,
@@ -14441,6 +14809,29 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1334255764,
+        "shortname": "minicopter",
+        "Name": "Minicopter",
+        "Description": "Minicopter",
+        "Category": "Misc",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 850.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
         "HasSkins": false
     },
     {
@@ -17342,6 +17733,29 @@
         "HasSkins": true
     },
     {
+        "itemid": 494161326,
+        "shortname": "rocket.launcher.rpg7",
+        "Name": "RPG Launcher",
+        "Description": "Unmatched craftsmanship meets devastating firepower.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -1863063690,
         "shortname": "rockingchair",
         "Name": "Rocking Chair",
@@ -18193,6 +18607,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 375473148,
+        "shortname": "scraptransportheli",
+        "Name": "Scrap Transport Helicopter",
+        "Description": null,
+        "Category": "Misc",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": -1884328185,
         "shortname": "scraptransportheli.repair",
         "Name": "Scrap Transport Helicopter",
@@ -18282,6 +18719,29 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -374457631,
+        "shortname": "sedan",
+        "Name": "Sedan",
+        "Description": "Sedan",
+        "Category": "Misc",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 850.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
         "HasSkins": false
     },
     {
@@ -18817,7 +19277,7 @@
         "itemid": 795371088,
         "shortname": "shotgun.pump",
         "Name": "Pump Shotgun",
-        "Description": "A Shotgun. Fires six rounds.",
+        "Description": "A Shotgun. Fires 8 rounds.",
         "Category": "Weapon",
         "maxDraggable": 0,
         "ItemType": "Generic",
