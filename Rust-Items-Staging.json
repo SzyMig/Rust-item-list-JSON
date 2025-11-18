@@ -208,29 +208,6 @@
     },
     {
         "itemid": -1896395719,
-        "shortname": "advanceblueprintfragment",
-        "Name": "Advance Blueprint Fragment",
-        "Description": "Precision schematics with complex information, multiple fragments are necessary for crafting a Tier 3 Workbench.",
-        "Category": "Resources",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 100,
-        "quickDespawn": false,
-        "rarity": "None",
-        "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
-        },
-        "Parent": 0,
-        "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
-        "HasSkins": false
-    },
-    {
-        "itemid": -1896395719,
         "shortname": "advancedblueprintfragment",
         "Name": "Advanced Blueprint Fragment",
         "Description": "Precision schematics with complex information, multiple fragments are necessary for crafting a Tier 3 Workbench.",
@@ -9430,29 +9407,6 @@
         "HasSkins": false
     },
     {
-        "itemid": 2137338174,
-        "shortname": "gates.external.high.frontier",
-        "Name": "High External Frontier Gate",
-        "Description": "A Frontier themed wooden gate to keep the untamed wilderness away from your property, it's seen better days. Replaces the High External Wooden Wall.",
-        "Category": "Construction",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 1,
-        "quickDespawn": false,
-        "rarity": "None",
-        "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
-        },
-        "Parent": 0,
-        "isWearable": false,
-        "isHoldable": true,
-        "isUsable": true,
-        "HasSkins": false
-    },
-    {
         "itemid": -1442339204,
         "shortname": "gates.external.high.legacy",
         "Name": "High External Legacy Gate",
@@ -10444,29 +10398,6 @@
     {
         "itemid": 696029539,
         "shortname": "hab",
-        "Name": "Hot Air Balloon",
-        "Description": "A Hot Air Balloon.",
-        "Category": "Misc",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 1,
-        "quickDespawn": false,
-        "rarity": "None",
-        "condition": {
-            "enabled": false,
-            "max": 100.0,
-            "repairable": false
-        },
-        "Parent": 0,
-        "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
-        "HasSkins": false
-    },
-    {
-        "itemid": -1759188988,
-        "shortname": "habrepair",
         "Name": "Hot Air Balloon",
         "Description": "A Hot Air Balloon.",
         "Category": "Misc",
@@ -18676,29 +18607,6 @@
         "HasSkins": false
     },
     {
-        "itemid": -1884328185,
-        "shortname": "scraptransportheli.repair",
-        "Name": "Scrap Transport Helicopter",
-        "Description": null,
-        "Category": "Misc",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 1,
-        "quickDespawn": false,
-        "rarity": "None",
-        "condition": {
-            "enabled": false,
-            "max": 100.0,
-            "repairable": false
-        },
-        "Parent": 0,
-        "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
-        "HasSkins": false
-    },
-    {
         "itemid": 504109620,
         "shortname": "sculpture.ice",
         "Name": "Ice Sculpture",
@@ -23483,29 +23391,6 @@
         "HasSkins": false
     },
     {
-        "itemid": 63265850,
-        "shortname": "wall.external.high.frontier",
-        "Name": "High External Frontier Wall",
-        "Description": "A Frontier themed wooden wall to keep the untamed wilderness away from your property, made with questionable carpentry. Replaces the High External Wooden Wall.",
-        "Category": "Construction",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 10,
-        "quickDespawn": false,
-        "rarity": "None",
-        "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
-        },
-        "Parent": 0,
-        "isWearable": false,
-        "isHoldable": true,
-        "isUsable": true,
-        "HasSkins": false
-    },
-    {
         "itemid": -985781766,
         "shortname": "wall.external.high.ice",
         "Name": "High Ice Wall",
@@ -24032,29 +23917,6 @@
         "isWearable": false,
         "isHoldable": false,
         "isUsable": false,
-        "HasSkins": true
-    },
-    {
-        "itemid": -1501434104,
-        "shortname": "wallpaper",
-        "Name": "Wallpaper",
-        "Description": "Transform your base from a rusty shack to a cozy hideout with this sleek wallpaper. A nice touch of style - until the next raid, at least.",
-        "Category": "Items",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 10,
-        "quickDespawn": false,
-        "rarity": "None",
-        "condition": {
-            "enabled": false,
-            "max": 100.0,
-            "repairable": false
-        },
-        "Parent": 0,
-        "isWearable": false,
-        "isHoldable": true,
-        "isUsable": true,
         "HasSkins": true
     },
     {
