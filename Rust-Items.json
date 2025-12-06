@@ -4140,6 +4140,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -105343718,
+        "shortname": "circleballoon2025",
+        "Name": "Circle Balloon",
+        "Description": "A circular balloon to use as decoration and for you to celebrate. You can write on it.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 486661382,
         "shortname": "clantable",
         "Name": "Clan Table",
@@ -10764,6 +10787,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 1633553557,
+        "shortname": "hat.candle.birthday",
+        "Name": "Birthday Candle Hat",
+        "Description": "A hat with a birthday candle on top. You can turn the candle on in your inventory.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": 1714496074,
         "shortname": "hat.candle",
         "Name": "Candle Hat",
@@ -10784,7 +10830,7 @@
         "isWearable": true,
         "isHoldable": false,
         "isUsable": false,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -1022661119,
@@ -11542,6 +11588,29 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 362863314,
+        "shortname": "heartballoon2025",
+        "Name": "Heart Balloon",
+        "Description": "A heart-shaped balloon to use as decoration and for you to celebrate. You can write on it.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
         "isUsable": true,
         "HasSkins": false
     },
@@ -13432,6 +13501,52 @@
         "HasSkins": false
     },
     {
+        "itemid": 1295301598,
+        "shortname": "latexballoon2025",
+        "Name": "Latex Balloon",
+        "Description": "A latex balloon to use as decoration and for you to celebrate. You can write on it.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1440443161,
+        "shortname": "latexclumpballoon2025",
+        "Name": "Clump of Latex Balloons",
+        "Description": "A clump of latex balloons to use as decoration and for you to celebrate.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 1223729384,
         "shortname": "lavenderidtag",
         "Name": "Lavender ID Tag",
@@ -14996,6 +15111,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 571949408,
+        "shortname": "mixedclumpballoon2025",
+        "Name": "Clump of Mixed Balloons",
+        "Description": "A clump of mixed balloons to use as decoration and for you to celebrate.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 1259919256,
         "shortname": "mixingtable",
         "Name": "Mixing Table",
@@ -15245,6 +15383,29 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 381595627,
+        "shortname": "neonsigntr",
+        "Name": "Twitch Rivals Neon Sign",
+        "Description": "A Twitch Rivals Light-Up Neon Sign",
+        "Category": "Electrical",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
         "isUsable": true,
         "HasSkins": false
     },
@@ -17445,6 +17606,29 @@
         "stackable": 1,
         "quickDespawn": false,
         "rarity": "VeryRare",
+        "condition": {
+            "enabled": true,
+            "max": 150.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": true
+    },
+    {
+        "itemid": 533993281,
+        "shortname": "rifle.lr300.space",
+        "Name": "Space LR-300 Assault Rifle",
+        "Description": "Non-standard-issue high-powered light assault rifle for only the most elite of practitioners.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
         "condition": {
             "enabled": true,
             "max": 150.0,
@@ -21183,6 +21367,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 963400638,
+        "shortname": "speechbubbleballoon2025",
+        "Name": "Speech Bubble Balloon",
+        "Description": "A speech bubble-shaped balloon to use as decoration and for you to celebrate. You can write on it.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 882559853,
         "shortname": "spiderweb",
         "Name": "Spider Webs",
@@ -21365,6 +21572,29 @@
         "isHoldable": false,
         "isUsable": false,
         "HasSkins": true
+    },
+    {
+        "itemid": -1782127806,
+        "shortname": "starballoon2025",
+        "Name": "Star Balloon",
+        "Description": "A star-shaped balloon to use as decoration and for you to celebrate. You can write on it.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
     },
     {
         "itemid": -369760990,
@@ -22716,6 +22946,29 @@
             "enabled": true,
             "max": 100.0,
             "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1604092540,
+        "shortname": "twitchrivals2025sofa",
+        "Name": "Twitch Rivals 2025 Sofa",
+        "Description": "A comfortable twitch branded sofa. A decorative item which provides comfort and seats two.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 2,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
+            "repairable": false
         },
         "Parent": 0,
         "isWearable": false,
