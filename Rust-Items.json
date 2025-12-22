@@ -17615,7 +17615,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": true
+        "HasSkins": false
     },
     {
         "itemid": 533993281,
@@ -18840,7 +18840,7 @@
         "itemid": 504109620,
         "shortname": "sculpture.ice",
         "Name": "Ice Sculpture",
-        "Description": "An block of ice you can sculpt.",
+        "Description": "A block of ice you can sculpt and light up with electric power.",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
