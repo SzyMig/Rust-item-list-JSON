@@ -529,6 +529,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 385645417,
+        "shortname": "ammo.paintball",
+        "Name": "Paintball",
+        "Description": "Ammo for a paintball gun.",
+        "Category": "Ammunition",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 128,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": 51984655,
         "shortname": "ammo.pistol.fire",
         "Name": "Incendiary Pistol Bullet",
@@ -2740,11 +2763,11 @@
         "itemid": 1993693904,
         "shortname": "boatbuildingstation",
         "Name": "Boat Building Station",
-        "Description": "A boat yard in your pocket.",
+        "Description": "A deployable building station, creates a stable workspace on the water to build or edit your floating wooden refuge.",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
-        "AmountType": "Count",
+        "AmountType": "BBSLimit",
         "stackable": 1,
         "quickDespawn": false,
         "rarity": "Uncommon",
@@ -3545,7 +3568,7 @@
         "itemid": -34498533,
         "shortname": "cannon",
         "Name": "Cannon",
-        "Description": "A cannon that can be mounted onto a boat. Requires cannonballs to fire.",
+        "Description": "A heavy mountable cannon for your boat with a short fuse. Questionable accuracy but high damage.",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -3556,7 +3579,7 @@
         "condition": {
             "enabled": true,
             "max": 100.0,
-            "repairable": false
+            "repairable": true
         },
         "Parent": 0,
         "isWearable": false,
@@ -4976,7 +4999,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 4,
+        "stackable": 20,
         "quickDespawn": false,
         "rarity": "Common",
         "condition": {
@@ -6049,6 +6072,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -1559420426,
+        "shortname": "diving.tank.double",
+        "Name": "Double Diving Tank",
+        "Description": "An oxygen tank that enables breathing under water for a period of time. Can be refilled at a workbench. Holds 80% more Oxygen than a standard diving tank",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "OxygenSeconds",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": true,
+            "max": 1080.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": -2022172587,
         "shortname": "diving.tank",
         "Name": "Diving Tank",
@@ -6552,6 +6598,29 @@
         "isWearable": false,
         "isHoldable": false,
         "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1779203452,
+        "shortname": "easel",
+        "Name": "Portable Easel",
+        "Description": "A portable easel for painting plein air!",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -9938,13 +10007,13 @@
     {
         "itemid": -996235148,
         "shortname": "goldframe.large",
-        "Name": "Gold Frame large",
-        "Description": "A large gold frame",
+        "Name": "Ornate Frame large",
+        "Description": "A large ornate frame",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 1,
+        "stackable": 5,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -9961,13 +10030,13 @@
     {
         "itemid": -1901993050,
         "shortname": "goldframe.medium",
-        "Name": "Gold Frame Medium",
-        "Description": "A medium gold frame",
+        "Name": "Ornate Frame Medium",
+        "Description": "A medium ornate frame",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 1,
+        "stackable": 5,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -9984,13 +10053,13 @@
     {
         "itemid": -1836526520,
         "shortname": "goldframe.small",
-        "Name": "Gold Frame Small",
-        "Description": "A small gold frame",
+        "Name": "Ornate Frame Small",
+        "Description": "A small ornate frame",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 1,
+        "stackable": 5,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -10007,13 +10076,59 @@
     {
         "itemid": -1528767189,
         "shortname": "goldframe.standing",
-        "Name": "Gold Frame Standing",
-        "Description": "A standing gold frame",
+        "Name": "Ornate Frame Standing",
+        "Description": "A standing ornate frame",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 1,
+        "stackable": 5,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1430299277,
+        "shortname": "goldframe.xl",
+        "Name": "Ornate Frame XL",
+        "Description": "An extra large ornate frame",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 5,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1322332389,
+        "shortname": "goldframe.xxl",
+        "Name": "Ornate Frame XXL",
+        "Description": "An extra extra large ornate frame",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 5,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -11109,6 +11224,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -418359052,
+        "shortname": "hat.horsemask",
+        "Name": "Horse Mask",
+        "Description": "A Beautifully crafted red and gold Horse mask to celebrate the 2026 Lunar New Year. This item replaces the wolf headdress.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": -1539025626,
         "shortname": "hat.miner",
         "Name": "Miners Hat",
@@ -11640,7 +11778,7 @@
     {
         "itemid": -1937799374,
         "shortname": "hazmatsuit_scientist_naval",
-        "Name": "#hazmatsuitnaval.scientist.name",
+        "Name": "Naval Scientist Suit",
         "Description": "A hazmat suit made from radiation resistant rubber.",
         "Category": "Attire",
         "maxDraggable": 0,
@@ -11914,6 +12052,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 146221721,
+        "shortname": "heavy.scientist.plushie",
+        "Name": "Heavy Scientist Plushie",
+        "Description": "Heavy Scientist Plushie",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -722629980,
         "shortname": "heavyscientistyoutooz",
         "Name": "Heavy Scientist Youtooz",
@@ -12121,6 +12282,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -2068194497,
+        "shortname": "horse.armor.lny26",
+        "Name": "Lunar New Year Horse Armor",
+        "Description": "A full body Lunar New Year themed armor for a horse. Provides strong protection for you and your steed, at the cost of greatly reduced movement speed.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": 60528587,
         "shortname": "horse.armor.roadsign",
         "Name": "Roadsign Horse Armor",
@@ -12141,7 +12325,7 @@
         "isWearable": false,
         "isHoldable": false,
         "isUsable": false,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": 1659447559,
@@ -13923,7 +14107,53 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 1,
+        "stackable": 5,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1801656689,
+        "shortname": "lightup.xl",
+        "Name": "Light-Up Frame XL",
+        "Description": "An extra large light-up frame",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 5,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1447138977,
+        "shortname": "lightup.xxl",
+        "Name": "Light-Up Frame XXL",
+        "Description": "An extra extra large light up frame",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 5,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -13946,7 +14176,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 1,
+        "stackable": 5,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -13969,7 +14199,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 1,
+        "stackable": 5,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -13992,7 +14222,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 1,
+        "stackable": 5,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -15985,6 +16215,75 @@
         "HasSkins": true
     },
     {
+        "itemid": -1039234836,
+        "shortname": "paintabletarget.reactive",
+        "Name": "Paintable Reactive Target",
+        "Description": "A reactive target practice in which you can paint whatever you want",
+        "Category": "Misc",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -707792719,
+        "shortname": "paintballgun",
+        "Name": "Paintball Gun",
+        "Description": "An air gun that uses compressed gas to fire and make targets works of art.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "VeryRare",
+        "condition": {
+            "enabled": true,
+            "max": 150.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1014934560,
+        "shortname": "paintballoveralls.suit",
+        "Name": "Paintball Overalls",
+        "Description": "A set of paintball overalls.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": 237239288,
         "shortname": "pants",
         "Name": "Pants",
@@ -16885,7 +17184,7 @@
         "itemid": -952411326,
         "shortname": "plank",
         "Name": "Plank",
-        "Description": "Good for walking on.",
+        "Description": "Crude boarding plank thrown together from ruined floorboards, watch out for splinters.",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -18402,7 +18701,7 @@
     {
         "itemid": -1104881824,
         "shortname": "rug.bear",
-        "Name": "Rug Bear Skin",
+        "Name": "Bear Skin Rug",
         "Description": "A decorative rug that can be placed on walls, floors, and ceilings. Provides comfort when in close proximity.",
         "Category": "Items",
         "maxDraggable": 0,
@@ -18837,6 +19136,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 445662288,
+        "shortname": "scientist.plushie",
+        "Name": "Scientist Plushie",
+        "Description": "Scientist Plushie",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -1772746857,
         "shortname": "scientistsuit_heavy",
         "Name": "Heavy Scientist Suit",
@@ -18885,13 +19207,13 @@
     {
         "itemid": -1094453063,
         "shortname": "scrapframe.large",
-        "Name": "Scrap Frame large",
-        "Description": "A large scrap frame",
+        "Name": "Shutter Frame large",
+        "Description": "A large shutter frame",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 1,
+        "stackable": 5,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -18908,13 +19230,13 @@
     {
         "itemid": -1060567807,
         "shortname": "scrapframe.medium",
-        "Name": "Scrap Frame Medium",
-        "Description": "A medium scrap frame",
+        "Name": "Shutter Frame Medium",
+        "Description": "A medium shutter frame",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 1,
+        "stackable": 5,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -18931,13 +19253,13 @@
     {
         "itemid": -498301781,
         "shortname": "scrapframe.small",
-        "Name": "Scrap Frame Small",
-        "Description": "A small scrap frame",
+        "Name": "Shutter Frame Small",
+        "Description": "A small shutter frame",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 1,
+        "stackable": 5,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -18954,13 +19276,59 @@
     {
         "itemid": -1774190142,
         "shortname": "scrapframe.standing",
-        "Name": "Scrap Frame Standing",
-        "Description": "A standing scrap frame",
+        "Name": "Shutter Frame Standing",
+        "Description": "A standing shutter frame",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 1,
+        "stackable": 5,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1244287686,
+        "shortname": "scrapframe.xl",
+        "Name": "Shutter Frame XL",
+        "Description": "An extra large shutter frame",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 5,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1211801774,
+        "shortname": "scrapframe.xxl",
+        "Name": "Shutter Frame XXL",
+        "Description": "An extra extra large shutter frame",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 5,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -19987,6 +20355,144 @@
         "HasSkins": false
     },
     {
+        "itemid": -946599114,
+        "shortname": "sign.artistcanvas.l",
+        "Name": "Artist Canvas Standing",
+        "Description": "A standing canvas for seamless murals",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 5,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -946599113,
+        "shortname": "sign.artistcanvas.m",
+        "Name": "Artist Canvas Large",
+        "Description": "A large sized canvas for seamless murals",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 5,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -946599131,
+        "shortname": "sign.artistcanvas.s",
+        "Name": "Artist Canvas Medium",
+        "Description": "A medium canvas for seamless murals",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 5,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1562867678,
+        "shortname": "sign.artistcanvas.xl",
+        "Name": "Artist Canvas XL",
+        "Description": "An extra large canvas for seamless murals",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 5,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1609921845,
+        "shortname": "sign.artistcanvas.xs",
+        "Name": "Artist Canvas Small",
+        "Description": "A small canvas for seamless murals",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 5,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -816769770,
+        "shortname": "sign.artistcanvas.xxl",
+        "Name": "Artist Canvas XXL",
+        "Description": "An extra, extra large canvas for seamless murals",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 5,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 23352662,
         "shortname": "sign.hanging.banner.large",
         "Name": "Large Banner Hanging",
@@ -20490,6 +20996,29 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1849409072,
+        "shortname": "silly.horse.mask",
+        "Name": "Silly Horse Mask",
+        "Description": "A silly rubber horse mask to celebrate Lunar New Year 2026. Comes in three varieties.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
         "HasSkins": false
     },
     {
@@ -21071,7 +21600,7 @@
         "itemid": -2115299615,
         "shortname": "smallengine",
         "Name": "Small Boat Engine",
-        "Description": "Faster than sails!",
+        "Description": "A punchy boat engine made from scavenged parts, not good for the environment. More engines means more speed.",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -21117,7 +21646,7 @@
         "itemid": -158718378,
         "shortname": "small_ramp",
         "Name": "Small Ramp",
-        "Description": "Good for walking on.",
+        "Description": "Deployable wooden ramp cobbled together from recycled doors, probably sturdy enough. Unfolds for boarding enemy vessels.",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -21991,7 +22520,7 @@
         "itemid": -1866909924,
         "shortname": "steeringwheel.boat",
         "Name": "Steering Wheel",
-        "Description": "Useful boating item.",
+        "Description": "A lockable steering wheel for your modular boat with some suspiciously shaped handles.",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -22790,7 +23319,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": 1523195708,
@@ -23411,29 +23940,6 @@
         "isWearable": true,
         "isHoldable": false,
         "isUsable": false,
-        "HasSkins": false
-    },
-    {
-        "itemid": -1683726934,
-        "shortname": "twowaymirror.window",
-        "Name": "Two-Way Mirror",
-        "Description": "A Two-Way mirror",
-        "Category": "Items",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 1,
-        "quickDespawn": false,
-        "rarity": "Uncommon",
-        "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
-        },
-        "Parent": 0,
-        "isWearable": false,
-        "isHoldable": true,
-        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -24561,7 +25067,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": 1730664641,
@@ -25484,6 +25990,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 738611016,
+        "shortname": "window.paintable",
+        "Name": "Paintable Window",
+        "Description": "A window with paintable glass",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -144417939,
         "shortname": "wiretool",
         "Name": "Wire Tool",
@@ -25768,7 +26297,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 1,
+        "stackable": 5,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -25791,7 +26320,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 1,
+        "stackable": 5,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -25814,7 +26343,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 1,
+        "stackable": 5,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -25837,7 +26366,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 1,
+        "stackable": 5,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
