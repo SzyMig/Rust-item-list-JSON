@@ -5108,7 +5108,7 @@
     {
         "itemid": -1593678393,
         "shortname": "component.box.ammo.large",
-        "Name": "Ammo Component Box",
+        "Name": "Ammo Storage Box",
         "Description": "Keep your ammunition in this storage box. Stores up to 48 items.",
         "Category": "Items",
         "maxDraggable": 0,
@@ -5131,7 +5131,7 @@
     {
         "itemid": 1254295946,
         "shortname": "component.box.armor.large",
-        "Name": "Armor Component Box",
+        "Name": "Armor Storage Box",
         "Description": "Keep your armor in this storage box. Stores up to 48 items.",
         "Category": "Items",
         "maxDraggable": 0,
@@ -5154,7 +5154,7 @@
     {
         "itemid": 1884461210,
         "shortname": "component.box.charcoal.large",
-        "Name": "Charcoal Component Box",
+        "Name": "Charcoal Storage Box",
         "Description": "Keep your charcoal in this storage box. Stores up to 48 items.",
         "Category": "Items",
         "maxDraggable": 0,
@@ -5177,7 +5177,7 @@
     {
         "itemid": 1736620421,
         "shortname": "component.box.clothing.large",
-        "Name": "Clothing Component Box",
+        "Name": "Clothing Storage Box",
         "Description": "Keep your clothing in this storage box. Stores up to 48 items.",
         "Category": "Items",
         "maxDraggable": 0,
@@ -5200,7 +5200,7 @@
     {
         "itemid": -413663149,
         "shortname": "component.box.comps.large",
-        "Name": "Comps Component Box",
+        "Name": "Comps Storage Box",
         "Description": "Keep your components in this storage box. Stores up to 48 items.",
         "Category": "Items",
         "maxDraggable": 0,
@@ -5223,7 +5223,7 @@
     {
         "itemid": -1998423571,
         "shortname": "component.box.explosives.large",
-        "Name": "Explosives Component Box",
+        "Name": "Explosives Storage Box",
         "Description": "Keep your explosives in this storage box. Stores up to 48 items.",
         "Category": "Items",
         "maxDraggable": 0,
@@ -5246,7 +5246,7 @@
     {
         "itemid": 1023919015,
         "shortname": "component.box.food.large",
-        "Name": "Food Component Box",
+        "Name": "Food Storage Box",
         "Description": "Keep your food in this storage box. Stores up to 48 items.",
         "Category": "Items",
         "maxDraggable": 0,
@@ -5269,7 +5269,7 @@
     {
         "itemid": -544295594,
         "shortname": "component.box.guns.large",
-        "Name": "Guns Component Box",
+        "Name": "Guns Storage Box",
         "Description": "Keep your guns in this storage box. Stores up to 48 items.",
         "Category": "Items",
         "maxDraggable": 0,
@@ -5292,7 +5292,7 @@
     {
         "itemid": -800824218,
         "shortname": "component.box.meds.large",
-        "Name": "Meds Component Box",
+        "Name": "Meds Storage Box",
         "Description": "Keep your medical things in this storage box. Stores up to 48 items.",
         "Category": "Items",
         "maxDraggable": 0,
@@ -5315,7 +5315,7 @@
     {
         "itemid": 1465782238,
         "shortname": "component.box.metal.large",
-        "Name": "Metal Component Box",
+        "Name": "Metal Storage Box",
         "Description": "Keep your metal things in this storage box. Stores up to 48 items.",
         "Category": "Items",
         "maxDraggable": 0,
@@ -5338,7 +5338,7 @@
     {
         "itemid": 992944937,
         "shortname": "component.box.ore.large",
-        "Name": "Ore Component Box",
+        "Name": "Ore Storage Box",
         "Description": "Keep your ore in this storage box. Stores up to 48 items.",
         "Category": "Items",
         "maxDraggable": 0,
@@ -5361,7 +5361,7 @@
     {
         "itemid": 574701440,
         "shortname": "component.box.scrap.large",
-        "Name": "Scrap Component Box",
+        "Name": "Scrap Storage Box",
         "Description": "Keep your scrap in this storage box. Stores up to 48 items.",
         "Category": "Items",
         "maxDraggable": 0,
@@ -5384,7 +5384,7 @@
     {
         "itemid": 94971664,
         "shortname": "component.box.stone.large",
-        "Name": "Stone Component Box",
+        "Name": "Stone Storage Box",
         "Description": "Keep your stone in this storage box. Stores up to 48 items.",
         "Category": "Items",
         "maxDraggable": 0,
@@ -5407,7 +5407,7 @@
     {
         "itemid": -10594280,
         "shortname": "component.box.sulfur.large",
-        "Name": "Sulfur Component Box",
+        "Name": "Sulfur Storage Box",
         "Description": "Keep your sulfur in this storage box. Stores up to 48 items.",
         "Category": "Items",
         "maxDraggable": 0,
@@ -5430,7 +5430,7 @@
     {
         "itemid": 679690962,
         "shortname": "component.box.tools.large",
-        "Name": "Tools Component Box",
+        "Name": "Tools Storage Box",
         "Description": "Keep your tools in this storage box. Stores up to 48 items.",
         "Category": "Items",
         "maxDraggable": 0,
@@ -5453,7 +5453,7 @@
     {
         "itemid": 1044081720,
         "shortname": "component.box.wood.large",
-        "Name": "Wood Component Box",
+        "Name": "Wood Storage Box",
         "Description": "Keep your wood in this storage box. Stores up to 48 items.",
         "Category": "Items",
         "maxDraggable": 0,
