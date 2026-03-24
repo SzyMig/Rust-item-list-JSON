@@ -1081,6 +1081,52 @@
         "HasSkins": false
     },
     {
+        "itemid": 1127417055,
+        "shortname": "armoured.ladder.hatch",
+        "Name": "Armoured Ladder Hatch",
+        "Description": "An armoured hatch that opens and changes into a ladder.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -601133933,
+        "shortname": "armoured.triangle.ladder.hatch",
+        "Name": "Armoured Triangle Laddder Hatch",
+        "Description": "An armoured hatch that opens and changes into a ladder.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 215754713,
         "shortname": "arrow.bone",
         "Name": "Bone Arrow",
@@ -3194,6 +3240,29 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1285226495,
+        "shortname": "bunny.suit",
+        "Name": "Bunny Costume",
+        "Description": "An inflatable bunny costume. Acting as a replacement for wooden pants, you can equip this item to look as silly as possible.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 80.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
         "HasSkins": false
     },
     {
@@ -9246,6 +9315,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 607785075,
+        "shortname": "floor.ladder.hatch.toptier",
+        "Name": "Armored Ladder Hatch",
+        "Description": "An armored hatch that opens and changes into a ladder.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 1983621560,
         "shortname": "floor.triangle.grill",
         "Name": "Floor triangle grill",
@@ -9273,6 +9365,29 @@
         "shortname": "floor.triangle.ladder.hatch",
         "Name": "Triangle Ladder Hatch",
         "Description": "A hatch that opens and changes into a ladder.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -478923685,
+        "shortname": "floor.triangle.ladder.hatch.toptier",
+        "Name": "Armored Triangle Ladder Hatch",
+        "Description": "A triangular armored hatch that opens and changes into a ladder.",
         "Category": "Construction",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -10204,6 +10319,29 @@
             "enabled": true,
             "max": 50.0,
             "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -379403794,
+        "shortname": "generator.water",
+        "Name": "Water Wheel",
+        "Description": "Converts kinetic energy harvested from flowing water into electricity.",
+        "Category": "Electrical",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
         },
         "Parent": 0,
         "isWearable": false,
@@ -19255,6 +19393,29 @@
         "shortname": "rustige_egg_g",
         "Name": "Rustig\u00e9 Egg - Cerulean",
         "Description": "A beautiful hand crafted cerulean and gold egg, with a miniature cargo ship scene contained inside.",
+        "Category": "Misc",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -173268138,
+        "shortname": "rustige_egg_h",
+        "Name": "Rustig\u00e9 Egg - Amethyst",
+        "Description": "A beautiful hand crafted amethyst and gold egg, with a miniature excavator scene contained inside.",
         "Category": "Misc",
         "maxDraggable": 0,
         "ItemType": "Generic",
