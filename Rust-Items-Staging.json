@@ -506,6 +506,52 @@
         "HasSkins": false
     },
     {
+        "itemid": 963150711,
+        "shortname": "ammo.mortar.basic",
+        "Name": "Mortar Shell",
+        "Description": "A high explosive mortar shell that deals minor structural damage on impact.",
+        "Category": "Ammunition",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -486432631,
+        "shortname": "ammo.mortar.fragment",
+        "Name": "Fragmentation Mortar Shell",
+        "Description": "A fragmentation mortar shell, dealing lethal damage in a large area on impact.",
+        "Category": "Ammunition",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": -2097376851,
         "shortname": "ammo.nailgun.nails",
         "Name": "Nailgun Nails",
@@ -1081,52 +1127,6 @@
         "HasSkins": false
     },
     {
-        "itemid": 1127417055,
-        "shortname": "armoured.ladder.hatch",
-        "Name": "Armoured Ladder Hatch",
-        "Description": "An armoured hatch that opens and changes into a ladder.",
-        "Category": "Construction",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 1,
-        "quickDespawn": false,
-        "rarity": "Rare",
-        "condition": {
-            "enabled": true,
-            "max": 100.0,
-            "repairable": true
-        },
-        "Parent": 0,
-        "isWearable": false,
-        "isHoldable": true,
-        "isUsable": true,
-        "HasSkins": false
-    },
-    {
-        "itemid": -601133933,
-        "shortname": "armoured.triangle.ladder.hatch",
-        "Name": "Armoured Triangle Laddder Hatch",
-        "Description": "An armoured hatch that opens and changes into a ladder.",
-        "Category": "Construction",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 1,
-        "quickDespawn": false,
-        "rarity": "Rare",
-        "condition": {
-            "enabled": true,
-            "max": 100.0,
-            "repairable": true
-        },
-        "Parent": 0,
-        "isWearable": false,
-        "isHoldable": true,
-        "isUsable": true,
-        "HasSkins": false
-    },
-    {
         "itemid": 215754713,
         "shortname": "arrow.bone",
         "Name": "Bone Arrow",
@@ -1584,7 +1584,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -262590403,
@@ -1768,6 +1768,75 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1127732084,
+        "shortname": "ballistic.helmet",
+        "Name": "Ballistic helmet",
+        "Description": "Ballistic helmet with superior protection.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": true,
+            "max": 800.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1983541158,
+        "shortname": "ballistic.legarmor",
+        "Name": "Ballistic leg armour",
+        "Description": "A pair of ballistic leg armour pieces. worn, used, and a bit grubby, but highly protective.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": true,
+            "max": 150.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1780402255,
+        "shortname": "ballistic.vest",
+        "Name": "Ballistic vest",
+        "Description": "A standard issue military ballstic vest. Worn, used, and dirty, but highly protective.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "VeryRare",
+        "condition": {
+            "enabled": true,
+            "max": 300.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
         "HasSkins": false
     },
     {
@@ -2024,6 +2093,98 @@
         "HasSkins": false
     },
     {
+        "itemid": -1024954624,
+        "shortname": "base.half.shelves",
+        "Name": "Base half shelves",
+        "Description": "Base half shelves",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": true
+    },
+    {
+        "itemid": 655356057,
+        "shortname": "base.horizontal.barrel",
+        "Name": "Base horizontal storage barrel",
+        "Description": "Base horizontal storage barrel",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": true
+    },
+    {
+        "itemid": -1695149731,
+        "shortname": "base.single.shelves",
+        "Name": "Base single shelves",
+        "Description": "Base single shelves",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": true
+    },
+    {
+        "itemid": 2045583965,
+        "shortname": "base.vertical.barrel",
+        "Name": "Base vertical storage barrel",
+        "Description": "Base vertical storage barrel",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": true
+    },
+    {
         "itemid": -143481979,
         "shortname": "basicblueprintfragment",
         "Name": "Basic Blueprint Fragment",
@@ -2159,6 +2320,52 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1468749025,
+        "shortname": "bdu.pants",
+        "Name": "BDU pants",
+        "Description": "A pair of standard issue battle dress uniform pants. Old, worn, stained, but provides moderate protection.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -2127311451,
+        "shortname": "bdu.shirt",
+        "Name": "BDU shirt",
+        "Description": "A standard issue battle dress uniform shirt. Old, worn and stained, but provides moderate protection.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
         "HasSkins": false
     },
     {
@@ -5954,6 +6161,29 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
+        "HasSkins": true
+    },
+    {
+        "itemid": 2022157467,
+        "shortname": "crossbowbowless",
+        "Name": "Bowless Crossbow",
+        "Description": "A bowless crossbow for fans of DIY",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -6362,6 +6592,29 @@
         "condition": {
             "enabled": false,
             "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1800102806,
+        "shortname": "discord.plushie",
+        "Name": "Wumpus Plush",
+        "Description": "Exclusive to the Discord store!",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
             "repairable": false
         },
         "Parent": 0,
@@ -7656,7 +7909,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -295829489,
@@ -8191,7 +8444,7 @@
         "itemid": 1293102274,
         "shortname": "electric.xorswitch",
         "Name": "XOR Switch",
-        "Description": "An exclusive-or logic gate that allows electrical passthrough if ONLY ONE input receives power, passthrough amount is whichever single input is active. If BOTH inputs recieve power, passthrough will be zero.",
+        "Description": "An exclusive-or logic gate that allows electrical passthrough if ONLY ONE input receives power, passthrough amount is whichever single input is active. If BOTH inputs receive power, passthrough will be zero.",
         "Category": "Electrical",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -10163,7 +10416,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -629028935,
@@ -11303,7 +11556,30 @@
         "AmountType": "Count",
         "stackable": 10,
         "quickDespawn": false,
-        "rarity": "Uncommon",
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 786458957,
+        "shortname": "halfheight.industrial.shelves",
+        "Name": "Half Height Industrial Shelves",
+        "Description": "Half height industrial shelves for stacking",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
         "condition": {
             "enabled": false,
             "max": 0.0,
@@ -12031,7 +12307,7 @@
     {
         "itemid": -797592358,
         "shortname": "hazmatsuit.diver",
-        "Name": "Abyss Pack",
+        "Name": "Abyss Hazmat",
         "Description": "A damaged deep-water survival suit was found in the abyss. Although it may no longer serve its original purpose, it functions reliably as a Hazmat suit. Owning this suit also grants access to the Abyss Pickaxe, Abyss Hatchet, Abyss Torch, and Abyss AR.",
         "Category": "Attire",
         "maxDraggable": 0,
@@ -13386,6 +13662,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -786398324,
+        "shortname": "industrial.autoturret",
+        "Name": "Industrial Auto Turret",
+        "Description": "This automated electric sentry turret will engage and neutralize any moving targets it has line of sight to. You must equip it with a projectile weapon and the corresponding ammunition. Note : The turret will search for targets in a 180 degree arc facing *you* when you place it. Requires 10 power.",
+        "Category": "Electrical",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "TurretLimit",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 1538126328,
         "shortname": "industrial.combiner",
         "Name": "Industrial Combiner",
@@ -13455,6 +13754,75 @@
         "HasSkins": false
     },
     {
+        "itemid": 225892284,
+        "shortname": "industrial.electric.furnace",
+        "Name": "Industrial Electric Furnace",
+        "Description": "An electrical version of a furnace that uses electricity instead of a fuel source.",
+        "Category": "Electrical",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1868984394,
+        "shortname": "industrial.furnace.large",
+        "Name": "Large Industrial Furnace",
+        "Description": "Used to smelt large quantities of ore. Difficult to secure, must be placed on terrain.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 346569548,
+        "shortname": "industrial.garagedoor",
+        "Name": "Industrial Garage Door",
+        "Description": "A garage door that rolls up and down.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 742745918,
         "shortname": "industrial.splitter",
         "Name": "Industrial Splitter",
@@ -13470,6 +13838,75 @@
             "enabled": false,
             "max": 100.0,
             "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1019111952,
+        "shortname": "industrial.storage.horizontal",
+        "Name": "Industrial Storage Horizontal Barrel",
+        "Description": "Horizontal barrel to store industrial materials",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -883975138,
+        "shortname": "industrial.storage.vertical",
+        "Name": "Industrial Storage Vertical Barrel",
+        "Description": "Vertical barrel to store industrial materials",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 4474927,
+        "shortname": "industrial.torch",
+        "Name": "Industrial Torch",
+        "Description": "An old mining lamp used as a torch. Lights your way at night and can be used as a weapon",
+        "Category": "Tool",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": true,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 50.0,
+            "repairable": false
         },
         "Parent": 0,
         "isWearable": false,
@@ -15111,6 +15548,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 599591861,
+        "shortname": "m16a2",
+        "Name": "M16A2",
+        "Description": "A reliable burst-fire only rifle offering excellent accuracy and firerate.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "VeryRare",
+        "condition": {
+            "enabled": true,
+            "max": 200.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -2026042603,
         "shortname": "mace.baseballbat",
         "Name": "Baseball Bat",
@@ -16207,6 +16667,29 @@
             "enabled": false,
             "max": 0.0,
             "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1459828804,
+        "shortname": "mortar.deployable",
+        "Name": "Mortar",
+        "Description": "The Mortar fires in an arcing trajectory and favors volume over precision. Pairs well with binoculars.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
         },
         "Parent": 0,
         "isWearable": false,
@@ -19468,7 +19951,7 @@
         "AmountType": "Count",
         "stackable": 10,
         "quickDespawn": false,
-        "rarity": "Uncommon",
+        "rarity": "None",
         "condition": {
             "enabled": false,
             "max": 0.0,
@@ -19496,6 +19979,29 @@
             "enabled": true,
             "max": 250.0,
             "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1018026008,
+        "shortname": "salvaged.industrial.shelves",
+        "Name": "Salvaged Industrial Shelves",
+        "Description": "Shelves for item stacking",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
         },
         "Parent": 0,
         "isWearable": false,
@@ -21553,15 +22059,15 @@
     {
         "itemid": -193519904,
         "shortname": "single.shallow.wall.shelves",
-        "Name": "Single Shallow Wall Shelves",
-        "Description": "Single Shallow Wall Shelves",
+        "Name": "Bamboo Wall Shelves",
+        "Description": "A shallow bamboo wall shelf for small item stacking",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
         "stackable": 10,
         "quickDespawn": false,
-        "rarity": "Uncommon",
+        "rarity": "None",
         "condition": {
             "enabled": false,
             "max": 0.0,
@@ -23946,7 +24452,7 @@
         "itemid": 962186730,
         "shortname": "tincan.alarm",
         "Name": "Tin Can Alarm",
-        "Description": "A primitive perimeter alarm made from hanging tin cans. Clatters loudly when disturbed, alerting you to any trespassers. Simple but effective.",
+        "Description": "A primitive perimeter alarm made from hanging tin cans. Clatters loudly when disturbed, alerting you to any trespassers. Can be rigged with grenades or other throwables.",
         "Category": "Traps",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -25320,12 +25826,12 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": 1115193056,
         "shortname": "wall.frame.lunar2025_a",
-        "Name": "Wall Divider Pack",
+        "Name": "Lunar Wall Frame Inlay",
         "Description": "A Lunar New Year themed decorative wall divider with geometric inlay",
         "Category": "Construction",
         "maxDraggable": 0,
@@ -25348,7 +25854,7 @@
     {
         "itemid": -450890885,
         "shortname": "wall.frame.lunar2025_b",
-        "Name": "Wall Divider Pack",
+        "Name": "Lunar Wall Frame Inlay",
         "Description": "A Lunar New Year themed decorative wall divider with swirling inlay",
         "Category": "Construction",
         "maxDraggable": 0,
@@ -25371,7 +25877,7 @@
     {
         "itemid": -2016974826,
         "shortname": "wall.frame.lunar2025_c",
-        "Name": "Wall Divider Pack",
+        "Name": "Lunar Wall Frame Inlay",
         "Description": "A Lunar New Year themed decorative wall divider with floral inlay",
         "Category": "Construction",
         "maxDraggable": 0,
@@ -25489,6 +25995,29 @@
         "Name": "Short Ice Wall",
         "Description": "A short wall made of solid ice.",
         "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -265202949,
+        "shortname": "wall.shallow.industrial.shelves",
+        "Name": "Industrial Wall Shelves",
+        "Description": "A shallow industrial wall shelf for small item stacking",
+        "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
@@ -27068,6 +27597,236 @@
         "isWearable": false,
         "isHoldable": false,
         "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 798382300,
+        "shortname": "workbench.upgrade.accelerated",
+        "Name": "Accelerated Workbench Upgrade",
+        "Description": "Crafting speed increases by 25% for each item already completed in the same batch.",
+        "Category": "Component",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -770390391,
+        "shortname": "workbench.upgrade.comfort",
+        "Name": "Comfort Workbench Upgrade",
+        "Description": "Provides a 100% comfort zone around the workbench for those long crafting sessions.",
+        "Category": "Component",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1953279770,
+        "shortname": "workbench.upgrade.defensive",
+        "Name": "Defensive Workbench Upgrade",
+        "Description": "Armor or clothing compatible with insert slots will roll an additional slot when crafted using this upgrade.",
+        "Category": "Component",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1215602244,
+        "shortname": "workbench.upgrade.efficiency",
+        "Name": "Efficiency Workbench Upgrade",
+        "Description": "10% chance to produce a free bonus item when crafting in batches. Ineffective when crafting explosive and raid related items.",
+        "Category": "Component",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -180862419,
+        "shortname": "workbench.upgrade.prototype",
+        "Name": "Prototype Workbench Upgrade",
+        "Description": "Allows unlocking any tech tree item regardless of progression. Cost is doubled and there is a 25% chance of failure that still consumes resources.",
+        "Category": "Component",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1470387662,
+        "shortname": "workbench.upgrade.range",
+        "Name": "Range Workbench Upgrade",
+        "Description": "Doubles the workbench crafting radius, letting you craft from twice as far away.",
+        "Category": "Component",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -286541059,
+        "shortname": "workbench.upgrade.recyclebin",
+        "Name": "Recycle Bin Workbench Upgrade",
+        "Description": "Crafting at a workbench with this upgrade has a chance to refund up to 10% of the ingredient costs back to you in raw material form.",
+        "Category": "Component",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 112268546,
+        "shortname": "workbench.upgrade.reinforced",
+        "Name": "Reinforced Workbench Upgrade",
+        "Description": "Increases the workbench's max HP by 150% and grants explosive damage resistance.",
+        "Category": "Component",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -160105346,
+        "shortname": "workbench.upgrade.salvage",
+        "Name": "Salvage Workbench Upgrade",
+        "Description": "Reduces the scrap cost of all tech tree unlocks at this bench by 20%.",
+        "Category": "Component",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1536343135,
+        "shortname": "workbench.upgrade.surplus",
+        "Name": "Surplus Workbench Upgrade",
+        "Description": "20% chance to produce a random surplus part (1-8) when crafting. Surplus parts are used in special alternate recipes.",
+        "Category": "Component",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
         "HasSkins": false
     },
     {
