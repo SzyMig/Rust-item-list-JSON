@@ -1584,7 +1584,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -262590403,
@@ -1768,6 +1768,75 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1127732084,
+        "shortname": "ballistic.helmet",
+        "Name": "Ballistic helmet",
+        "Description": "Ballistic helmet with superior protection.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": true,
+            "max": 800.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1983541158,
+        "shortname": "ballistic.legarmor",
+        "Name": "Ballistic leg armour",
+        "Description": "A pair of ballistic leg armour pieces. worn, used, and a bit grubby, but highly protective.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": true,
+            "max": 150.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1780402255,
+        "shortname": "ballistic.vest",
+        "Name": "Ballistic vest",
+        "Description": "A standard issue military ballstic vest. Worn, used, and dirty, but highly protective.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "VeryRare",
+        "condition": {
+            "enabled": true,
+            "max": 300.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
         "HasSkins": false
     },
     {
@@ -2251,6 +2320,52 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1468749025,
+        "shortname": "bdu.pants",
+        "Name": "BDU pants",
+        "Description": "A pair of standard issue battle dress uniform pants. Old, worn, stained, but provides moderate protection.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -2127311451,
+        "shortname": "bdu.shirt",
+        "Name": "BDU shirt",
+        "Description": "A standard issue battle dress uniform shirt. Old, worn and stained, but provides moderate protection.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
         "HasSkins": false
     },
     {
@@ -6046,6 +6161,29 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
+        "HasSkins": true
+    },
+    {
+        "itemid": 2022157467,
+        "shortname": "crossbowbowless",
+        "Name": "Bowless Crossbow",
+        "Description": "A bowless crossbow for fans of DIY",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -6454,6 +6592,29 @@
         "condition": {
             "enabled": false,
             "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1800102806,
+        "shortname": "discord.plushie",
+        "Name": "Wumpus Plush",
+        "Description": "Exclusive to the Rust Shop on Discord!",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
             "repairable": false
         },
         "Parent": 0,
@@ -7748,7 +7909,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -295829489,
@@ -10255,7 +10416,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -629028935,
@@ -11389,6 +11550,29 @@
         "shortname": "half.bamboo.shelves",
         "Name": "Half Height Bamboo Shelves",
         "Description": "Half height salvaged bamboo shelves for stacking",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 786458957,
+        "shortname": "halfheight.industrial.shelves",
+        "Name": "Half Height Industrial Shelves",
+        "Description": "Half height industrial shelves for stacking",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -13478,6 +13662,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -786398324,
+        "shortname": "industrial.autoturret",
+        "Name": "Industrial Auto Turret",
+        "Description": "This automated electric sentry turret will engage and neutralize any moving targets it has line of sight to. You must equip it with a projectile weapon and the corresponding ammunition. Note : The turret will search for targets in a 180 degree arc facing *you* when you place it. Requires 10 power.",
+        "Category": "Electrical",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "TurretLimit",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 1538126328,
         "shortname": "industrial.combiner",
         "Name": "Industrial Combiner",
@@ -13547,6 +13754,75 @@
         "HasSkins": false
     },
     {
+        "itemid": 225892284,
+        "shortname": "industrial.electric.furnace",
+        "Name": "Industrial Electric Furnace",
+        "Description": "An electrical version of a furnace that uses electricity instead of a fuel source.",
+        "Category": "Electrical",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1868984394,
+        "shortname": "industrial.furnace.large",
+        "Name": "Large Industrial Furnace",
+        "Description": "Used to smelt large quantities of ore. Difficult to secure, must be placed on terrain.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 346569548,
+        "shortname": "industrial.garagedoor",
+        "Name": "Industrial Garage Door",
+        "Description": "A garage door that rolls up and down.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 742745918,
         "shortname": "industrial.splitter",
         "Name": "Industrial Splitter",
@@ -13562,6 +13838,75 @@
             "enabled": false,
             "max": 100.0,
             "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1019111952,
+        "shortname": "industrial.storage.horizontal",
+        "Name": "Industrial Storage Horizontal Barrel",
+        "Description": "Horizontal barrel to store industrial materials",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -883975138,
+        "shortname": "industrial.storage.vertical",
+        "Name": "Industrial Storage Vertical Barrel",
+        "Description": "Vertical barrel to store industrial materials",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 4474927,
+        "shortname": "industrial.torch",
+        "Name": "Industrial Torch",
+        "Description": "An old mining lamp used as a torch. Lights your way at night and can be used as a weapon",
+        "Category": "Tool",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": true,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 50.0,
+            "repairable": false
         },
         "Parent": 0,
         "isWearable": false,
@@ -15195,6 +15540,29 @@
             "enabled": false,
             "max": 0.0,
             "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 599591861,
+        "shortname": "m16a2",
+        "Name": "M16A2",
+        "Description": "A reliable burst-fire only rifle offering excellent accuracy and firerate.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "VeryRare",
+        "condition": {
+            "enabled": true,
+            "max": 200.0,
+            "repairable": true
         },
         "Parent": 0,
         "isWearable": false,
@@ -19583,7 +19951,7 @@
         "AmountType": "Count",
         "stackable": 10,
         "quickDespawn": false,
-        "rarity": "Uncommon",
+        "rarity": "None",
         "condition": {
             "enabled": false,
             "max": 0.0,
@@ -19611,6 +19979,29 @@
             "enabled": true,
             "max": 250.0,
             "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1018026008,
+        "shortname": "salvaged.industrial.shelves",
+        "Name": "Salvaged Industrial Shelves",
+        "Description": "Shelves for item stacking",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
         },
         "Parent": 0,
         "isWearable": false,
@@ -21668,8 +22059,8 @@
     {
         "itemid": -193519904,
         "shortname": "single.shallow.wall.shelves",
-        "Name": "Single Shallow Wall Shelves",
-        "Description": "Single Shallow Wall Shelves",
+        "Name": "Bamboo Wall Shelves",
+        "Description": "A shallow bamboo wall shelf for small item stacking",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -25435,7 +25826,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": 1115193056,
@@ -25604,6 +25995,29 @@
         "Name": "Short Ice Wall",
         "Description": "A short wall made of solid ice.",
         "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -265202949,
+        "shortname": "wall.shallow.industrial.shelves",
+        "Name": "Industrial Wall Shelves",
+        "Description": "A shallow industrial wall shelf for small item stacking",
+        "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
