@@ -14421,6 +14421,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -1622386500,
+        "shortname": "kickgems",
+        "Name": "Gems",
+        "Description": "Looks valuable",
+        "Category": "Resources",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 5000,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": 1814288539,
         "shortname": "knife.bone",
         "Name": "Bone Knife",
