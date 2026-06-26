@@ -4748,7 +4748,7 @@
         "AmountType": "Count",
         "stackable": 1,
         "quickDespawn": false,
-        "rarity": "None",
+        "rarity": "Uncommon",
         "condition": {
             "enabled": true,
             "max": 100.0,
