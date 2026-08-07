@@ -1,7 +1,7 @@
 [
     {
         "itemid": -226151558,
-        "shortname": "2module car chassis",
+        "shortname": "2module.car.chassis",
         "Name": "2 Module Car Chassis",
         "Description": "2 Module Car Chassis",
         "Category": "Misc",
@@ -24,7 +24,7 @@
     },
     {
         "itemid": -866121090,
-        "shortname": "2module car",
+        "shortname": "2module.car",
         "Name": "2 Module Car",
         "Description": "A motorbike.",
         "Category": "Misc",
@@ -47,7 +47,7 @@
     },
     {
         "itemid": 1482871705,
-        "shortname": "3module car chassis",
+        "shortname": "3module.car.chassis",
         "Name": "3 Module Car Chassis",
         "Description": "3 Module Car Chassis",
         "Category": "Misc",
@@ -70,7 +70,7 @@
     },
     {
         "itemid": -831725027,
-        "shortname": "3module car",
+        "shortname": "3module.car",
         "Name": "3 Module Car",
         "Description": "3 Module Car",
         "Category": "Misc",
@@ -93,7 +93,7 @@
     },
     {
         "itemid": 385099196,
-        "shortname": "4module car chassis",
+        "shortname": "4module.car.chassis",
         "Name": "4 Module Car Chassis",
         "Description": "4 Module Car Chassis",
         "Category": "Misc",
@@ -116,7 +116,7 @@
     },
     {
         "itemid": -935322684,
-        "shortname": "4module car",
+        "shortname": "4module.car",
         "Name": "4 Module Car",
         "Description": "4 Module Car",
         "Category": "Misc",
@@ -393,8 +393,8 @@
     {
         "itemid": 343045591,
         "shortname": "aiming.module.mlrs",
-        "Name": "MLRS Aiming Module",
-        "Description": "An aiming system computer module for an MLRS vehicle.",
+        "Name": "Aiming Module",
+        "Description": "An aiming system computer module for MLRS vehicles and satellite control terminals.",
         "Category": "Component",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -1076,8 +1076,8 @@
         },
         "Parent": 0,
         "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -1900,6 +1900,52 @@
         "condition": {
             "enabled": false,
             "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1639742441,
+        "shortname": "bar.stool.metal",
+        "Name": "Metal Bar Stool",
+        "Description": "Pull up a stool and have a drink. A decorative item which provides comfort while seated.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 5,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1444366079,
+        "shortname": "bar.stool.wood",
+        "Name": "Wooden Bar Stool",
+        "Description": "Pull up a stool and have a drink. A decorative item which provides comfort while seated.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 5,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
             "repairable": false
         },
         "Parent": 0,
@@ -4488,7 +4534,7 @@
         "itemid": 2130820927,
         "shortname": "charity.plushy.04",
         "Name": "Cancer Research UK 2026 Plushie",
-        "Description": "A soft and squishy plush that provides comfort in your base. First sold on the Rust store in July 2026 to support Cancer Research UK, each purchase helped fund real-world cancer research.\n\nwww.cancerresearchuk.org",
+        "Description": "A soft and squishy plush that provides comfort in your base.\n\nCancer Research UK (reg charity nos. 1089464, SC041666, 1103 and 247)\nwill get 100% of the net sales of the Cancer Research UK Plushie*.  \n\n*Net sales being gross sales less refunds and after Steam platform fees (20%) and sales tax typically around 10-11%.",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -6298,7 +6344,7 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": false,
-        "isUsable": false,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -6483,6 +6529,29 @@
         "isWearable": false,
         "isHoldable": false,
         "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -872679147,
+        "shortname": "dartboard",
+        "Name": "Dart Board",
+        "Description": "Throw some darts! Compete with others in a leaderboard. Hold the interact key to choose between a single or two-player game.",
+        "Category": "Fun",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -10511,6 +10580,29 @@
         "HasSkins": true
     },
     {
+        "itemid": -945548410,
+        "shortname": "fuse.highgrade",
+        "Name": "Heavy Fuse",
+        "Description": "Lasts longer than a regular fuse and is compatible with and able to restore a Power Plant. Will have to be replaced after a period of time.",
+        "Category": "Component",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "VeryRare",
+        "condition": {
+            "enabled": true,
+            "max": 1000.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": -629028935,
         "shortname": "fuse",
         "Name": "Electric Fuse",
@@ -10531,6 +10623,52 @@
         "isWearable": false,
         "isHoldable": false,
         "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 352442426,
+        "shortname": "gamesroom.minifridge",
+        "Name": "Bar Games Minifridge",
+        "Description": "A small fridge you can store food into and keep your drink cool!",
+        "Category": "Electrical",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 399522257,
+        "shortname": "gamesroom.shotgun.trap",
+        "Name": "Bar Games Shotgun Trap",
+        "Description": "A shotgun trap triggered by movement, place near doorways and load with handmade shells.",
+        "Category": "Traps",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 200.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -11589,7 +11727,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -1989600732,
@@ -12292,7 +12430,7 @@
         "AmountType": "Count",
         "stackable": 1,
         "quickDespawn": false,
-        "rarity": "Rare",
+        "rarity": "None",
         "condition": {
             "enabled": false,
             "max": 0.0,
@@ -12302,7 +12440,7 @@
         "isWearable": true,
         "isHoldable": false,
         "isUsable": false,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -1252059217,
@@ -14325,6 +14463,29 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1018085504,
+        "shortname": "jukebox",
+        "Name": "Jukebox",
+        "Description": "A Jukebox that brings the tunes! Play recorded cassette tapes or stream audio from the internet. Fitted with a matrix display that shows the tuned station. Open the settings to change audio options.",
+        "Category": "Fun",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
         "isUsable": true,
         "HasSkins": false
     },
@@ -16488,7 +16649,7 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
-        "HasSkins": false
+        "HasSkins": true
     },
     {
         "itemid": -1334255764,
@@ -18446,6 +18607,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -1748166144,
+        "shortname": "pooltable",
+        "Name": "Pool Table",
+        "Description": "A classic game of pool to challenge your friends, or foes. Hold the interact key to choose between a single or two-player game.",
+        "Category": "Fun",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 1925646349,
         "shortname": "porkmeat.spoiled",
         "Name": "Spoiled Pork Meat",
@@ -19016,144 +19200,6 @@
         },
         "Parent": 0,
         "isWearable": true,
-        "isHoldable": true,
-        "isUsable": true,
-        "HasSkins": false
-    },
-    {
-        "itemid": -835995173,
-        "shortname": "rentable.shop.sign.a",
-        "Name": "Medium Wooden Sign",
-        "Description": "A 2-meter by 1-meter wooden sign that you can write on.",
-        "Category": "Items",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 1,
-        "quickDespawn": false,
-        "rarity": "Common",
-        "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
-        },
-        "Parent": 0,
-        "isWearable": false,
-        "isHoldable": true,
-        "isUsable": true,
-        "HasSkins": false
-    },
-    {
-        "itemid": -1239279700,
-        "shortname": "rentable.shop.sign.b",
-        "Name": "Medium Wooden Sign",
-        "Description": "A 2-meter by 1-meter wooden sign that you can write on.",
-        "Category": "Items",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 1,
-        "quickDespawn": false,
-        "rarity": "Common",
-        "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
-        },
-        "Parent": 0,
-        "isWearable": false,
-        "isHoldable": true,
-        "isUsable": true,
-        "HasSkins": false
-    },
-    {
-        "itemid": 326804241,
-        "shortname": "rentable.shop.sign.c",
-        "Name": "Medium Wooden Sign",
-        "Description": "A 2-meter by 1-meter wooden sign that you can write on.",
-        "Category": "Items",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 1,
-        "quickDespawn": false,
-        "rarity": "Common",
-        "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
-        },
-        "Parent": 0,
-        "isWearable": false,
-        "isHoldable": true,
-        "isUsable": true,
-        "HasSkins": false
-    },
-    {
-        "itemid": -76480286,
-        "shortname": "rentable.shop.sign.d",
-        "Name": "Medium Wooden Sign",
-        "Description": "A 2-meter by 1-meter wooden sign that you can write on.",
-        "Category": "Items",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 1,
-        "quickDespawn": false,
-        "rarity": "Common",
-        "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
-        },
-        "Parent": 0,
-        "isWearable": false,
-        "isHoldable": true,
-        "isUsable": true,
-        "HasSkins": false
-    },
-    {
-        "itemid": 1489603655,
-        "shortname": "rentable.shop.sign.e",
-        "Name": "Medium Wooden Sign",
-        "Description": "A 2-meter by 1-meter wooden sign that you can write on.",
-        "Category": "Items",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 1,
-        "quickDespawn": false,
-        "rarity": "Common",
-        "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
-        },
-        "Parent": 0,
-        "isWearable": false,
-        "isHoldable": true,
-        "isUsable": true,
-        "HasSkins": false
-    },
-    {
-        "itemid": 1086319128,
-        "shortname": "rentable.shop.sign.f",
-        "Name": "Medium Wooden Sign",
-        "Description": "A 2-meter by 1-meter wooden sign that you can write on.",
-        "Category": "Items",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 1,
-        "quickDespawn": false,
-        "rarity": "Common",
-        "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
-        },
-        "Parent": 0,
-        "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
         "HasSkins": false
@@ -20827,8 +20873,31 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": false,
-            "max": 0.0,
+            "enabled": true,
+            "max": 150.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1852905808,
+        "shortname": "sculpture.rock",
+        "Name": "Stone Sculpture",
+        "Description": "A block of stone you can sculpt.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 150.0,
             "repairable": false
         },
         "Parent": 0,
@@ -23675,7 +23744,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 10,
+        "stackable": 20,
         "quickDespawn": false,
         "rarity": "Common",
         "condition": {
@@ -24699,6 +24768,29 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1754952075,
+        "shortname": "thruster.module",
+        "Name": "Thruster Module",
+        "Description": "A thruster module salvaged from crashed satellite remains. The more fuel left in the satellite when it was brought down, the better its condition.",
+        "Category": "Component",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
         "HasSkins": false
     },
     {
@@ -26406,7 +26498,7 @@
     {
         "itemid": -551431036,
         "shortname": "wallpaper.flooring",
-        "Name": "Wallpaper Flooring",
+        "Name": "Flooring",
         "Description": null,
         "Category": "Items",
         "maxDraggable": 0,
@@ -26452,7 +26544,7 @@
     {
         "itemid": 553967074,
         "shortname": "wallpaper.wall",
-        "Name": "Wallpaper Wall",
+        "Name": "Wallpaper",
         "Description": null,
         "Category": "Tool",
         "maxDraggable": 0,
