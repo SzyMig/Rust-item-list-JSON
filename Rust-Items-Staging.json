@@ -12606,8 +12606,8 @@
     {
         "itemid": 972302244,
         "shortname": "hazmatsuit.kick",
-        "Name": "Kick Hazmat",
-        "Description": "Hazmat obtained during Kick Drops 2025",
+        "Name": "KICK Hazmat",
+        "Description": "Unique hazmat suit obtainable during KICK Drops 2025",
         "Category": "Attire",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -16165,6 +16165,29 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -75264812,
+        "shortname": "medical.honey.bandage",
+        "Name": "Medical Honey Bandage",
+        "Description": "Heal yourself and others with this medical honey bandage. Left click heals you, right click heals others.",
+        "Category": "Medical",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
         "isUsable": true,
         "HasSkins": false
     },
