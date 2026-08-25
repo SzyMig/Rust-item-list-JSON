@@ -16169,7 +16169,7 @@
         "HasSkins": false
     },
     {
-        "itemid": -149337229,
+        "itemid": -75264812,
         "shortname": "medical.honey.bandage",
         "Name": "Medical Honey Bandage",
         "Description": "Heal yourself and others with this medical honey bandage. Left click heals you, right click heals others.",
@@ -23049,7 +23049,7 @@
         "itemid": -695978112,
         "shortname": "smart.alarm",
         "Name": "Smart Alarm",
-        "Description": "Sends a notifications to your phone when powered on.",
+        "Description": "Sends notifications to your phone when powered on.",
         "Category": "Electrical",
         "maxDraggable": 0,
         "ItemType": "Generic",
