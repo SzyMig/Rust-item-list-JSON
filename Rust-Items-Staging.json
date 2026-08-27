@@ -3069,7 +3069,7 @@
         "AmountType": "Count",
         "stackable": 1,
         "quickDespawn": false,
-        "rarity": "None",
+        "rarity": "Uncommon",
         "condition": {
             "enabled": false,
             "max": 0.0,
@@ -9039,6 +9039,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -18034684,
+        "shortname": "firework.boomer.white",
+        "Name": "White Boomer",
+        "Description": "A very large mortar type firework with a white starburst",
+        "Category": "Fun",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 20,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -515830359,
         "shortname": "firework.romancandle.blue",
         "Name": "Blue Roman Candle",
@@ -11347,7 +11370,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 5,
+        "stackable": 4,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -11370,7 +11393,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 5,
+        "stackable": 3,
         "quickDespawn": false,
         "rarity": "Common",
         "condition": {
@@ -11393,7 +11416,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 5,
+        "stackable": 3,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -11416,7 +11439,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 5,
+        "stackable": 3,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -11439,7 +11462,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 5,
+        "stackable": 3,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
