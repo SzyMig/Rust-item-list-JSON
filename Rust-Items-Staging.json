@@ -19414,8 +19414,8 @@
     {
         "itemid": -1156572922,
         "shortname": "rifle.ak.glass.blue",
-        "Name": "Crystal AR Sapphire",
-        "Description": "Show off how an AR works with this toughened crystal model. Available in five colors.",
+        "Name": "Crystal Assault Rifle Sapphire",
+        "Description": "Machined from the toughest gemstones, this Assault Rifle skin will show each and every shot you take.",
         "Category": "Weapon",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -19437,8 +19437,8 @@
     {
         "itemid": -75136407,
         "shortname": "rifle.ak.glass.green",
-        "Name": "Crystal AR Emerald",
-        "Description": "Show off how an AR works with this toughened crystal model. Available in five colors.",
+        "Name": "Crystal Assault Rifle Emerald",
+        "Description": "Machined from the toughest gemstones, this Assault Rifle skin will show each and every shot you take.",
         "Category": "Weapon",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -19460,8 +19460,8 @@
     {
         "itemid": -1920964108,
         "shortname": "rifle.ak.glass",
-        "Name": "Crystal AR Diamond",
-        "Description": "Show off how an AR works with this toughened crystal model. Available in five colors.",
+        "Name": "Crystal Assault Rifle Diamond",
+        "Description": "Machined from the toughest gemstones, this Assault Rifle skin will show each and every shot you take.",
         "Category": "Weapon",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -19483,8 +19483,8 @@
     {
         "itemid": -1795386514,
         "shortname": "rifle.ak.glass.pink",
-        "Name": "Crystal AR Pink Diamond",
-        "Description": "Show off how an AR works with this toughened crystal model. Available in five colors.",
+        "Name": "Crystal Assault Rifle Pink Diamond",
+        "Description": "Machined from the toughest gemstones, this Assault Rifle skin will show each and every shot you take.",
         "Category": "Weapon",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -19506,8 +19506,8 @@
     {
         "itemid": -1045971123,
         "shortname": "rifle.ak.glass.red",
-        "Name": "Crystal AR Ruby",
-        "Description": "Show off how an AR works with this toughened crystal model. Available in five colors.",
+        "Name": "Crystal Assault Rifle Ruby",
+        "Description": "Machined from the toughest gemstones, this Assault Rifle skin will show each and every shot you take.",
         "Category": "Weapon",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -19598,7 +19598,7 @@
     {
         "itemid": 472505338,
         "shortname": "rifle.ak.med",
-        "Name": "Medieval AR",
+        "Name": "Medieval Assault Rifle",
         "Description": "Medieval themed high damage machine rifle.",
         "Category": "Weapon",
         "maxDraggable": 0,
