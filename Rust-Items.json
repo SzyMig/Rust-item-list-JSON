@@ -3207,7 +3207,7 @@
         "AmountType": "Count",
         "stackable": 1,
         "quickDespawn": false,
-        "rarity": "None",
+        "rarity": "Uncommon",
         "condition": {
             "enabled": false,
             "max": 0.0,
@@ -9177,6 +9177,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -18034684,
+        "shortname": "firework.boomer.white",
+        "Name": "White Boomer",
+        "Description": "A very large mortar type firework with a white starburst",
+        "Category": "Fun",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 20,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -515830359,
         "shortname": "firework.romancandle.blue",
         "Name": "Blue Roman Candle",
@@ -11485,7 +11508,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 5,
+        "stackable": 4,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -11508,7 +11531,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 5,
+        "stackable": 3,
         "quickDespawn": false,
         "rarity": "Common",
         "condition": {
@@ -11531,7 +11554,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 5,
+        "stackable": 3,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -11554,7 +11577,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 5,
+        "stackable": 3,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -11577,7 +11600,7 @@
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
-        "stackable": 5,
+        "stackable": 3,
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
@@ -12744,8 +12767,8 @@
     {
         "itemid": 972302244,
         "shortname": "hazmatsuit.kick",
-        "Name": "Kick Hazmat",
-        "Description": "Hazmat obtained during Kick Drops 2025",
+        "Name": "KICK Hazmat",
+        "Description": "Unique hazmat suit obtainable during KICK Drops 2025",
         "Category": "Attire",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -16307,6 +16330,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -75264812,
+        "shortname": "medical.honey.bandage",
+        "Name": "Medical Honey Bandage",
+        "Description": "Heal yourself and others with this medical honey bandage. Left click heals you, right click heals others.",
+        "Category": "Medical",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 814297925,
         "shortname": "medieval.box.wooden.large",
         "Name": "Medieval Large Wood Box",
@@ -19504,6 +19550,121 @@
         "HasSkins": false
     },
     {
+        "itemid": -1156572922,
+        "shortname": "rifle.ak.glass.blue",
+        "Name": "Crystal Assault Rifle Sapphire",
+        "Description": "Machined from the toughest gemstones, this Assault Rifle skin will show each and every shot you take.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 150.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -75136407,
+        "shortname": "rifle.ak.glass.green",
+        "Name": "Crystal Assault Rifle Emerald",
+        "Description": "Machined from the toughest gemstones, this Assault Rifle skin will show each and every shot you take.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 150.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1920964108,
+        "shortname": "rifle.ak.glass",
+        "Name": "Crystal Assault Rifle Diamond",
+        "Description": "Machined from the toughest gemstones, this Assault Rifle skin will show each and every shot you take.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 150.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1795386514,
+        "shortname": "rifle.ak.glass.pink",
+        "Name": "Crystal Assault Rifle Pink Diamond",
+        "Description": "Machined from the toughest gemstones, this Assault Rifle skin will show each and every shot you take.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 150.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1045971123,
+        "shortname": "rifle.ak.glass.red",
+        "Name": "Crystal Assault Rifle Ruby",
+        "Description": "Machined from the toughest gemstones, this Assault Rifle skin will show each and every shot you take.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 150.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -1335497659,
         "shortname": "rifle.ak.ice",
         "Name": "Ice Assault Rifle",
@@ -19575,7 +19736,7 @@
     {
         "itemid": 472505338,
         "shortname": "rifle.ak.med",
-        "Name": "Medieval AR",
+        "Name": "Medieval Assault Rifle",
         "Description": "Medieval themed high damage machine rifle.",
         "Category": "Weapon",
         "maxDraggable": 0,
@@ -23164,7 +23325,7 @@
         "itemid": -695978112,
         "shortname": "smart.alarm",
         "Name": "Smart Alarm",
-        "Description": "Sends a notifications to your phone when powered on.",
+        "Description": "Sends notifications to your phone when powered on.",
         "Category": "Electrical",
         "maxDraggable": 0,
         "ItemType": "Generic",
