@@ -140,8 +140,8 @@
     {
         "itemid": 162882477,
         "shortname": "50cal.mounted",
-        "Name": "#50cal",
-        "Description": "#50cal.desc",
+        "Name": "50 Cal Turret",
+        "Description": "50 Cal Turret",
         "Category": "Weapon",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -163,8 +163,8 @@
     {
         "itemid": -1467876094,
         "shortname": "50cal.mounted.left",
-        "Name": "#50cal",
-        "Description": "#50cal.desc",
+        "Name": "Dual 50 Cal Turret",
+        "Description": "Dual 50 Cal Turret",
         "Category": "Weapon",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -186,8 +186,8 @@
     {
         "itemid": 1248383659,
         "shortname": "50cal.mounted.right",
-        "Name": "#50cal",
-        "Description": "#50cal.desc",
+        "Name": "Dual 50 Cal Turret",
+        "Description": "Dual 50 Cal Turret",
         "Category": "Weapon",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -1967,7 +1967,7 @@
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -2047,10 +2047,79 @@
         "HasSkins": false
     },
     {
+        "itemid": -219005627,
+        "shortname": "barricade.sandbags.half",
+        "Name": "#barricade.sandbags.half",
+        "Description": "A protective barricade made out of Sand Bags. Deploy another one on top to build it higher, up to a sandbag pillbox.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -559599960,
         "shortname": "barricade.sandbags",
         "Name": "Sandbag Barricade",
-        "Description": "A protective barricade made out of Sand Bags.",
+        "Description": "A protective barricade made out of Sand Bags. Deploy another one on top to build it higher, up to a sandbag pillbox.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1088645302,
+        "shortname": "barricade.sandbags.pillbox",
+        "Name": "#barricade.sandbags.pillbox",
+        "Description": "#barricade.sandbags.pillbox.desc",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 2141654944,
+        "shortname": "barricade.sandbags.three.quarter",
+        "Name": "#barricade.sandbags.three.quarter",
+        "Description": "A protective barricade made out of Sand Bags. Deploy another one on top to build it higher, up to a sandbag pillbox.",
         "Category": "Construction",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -6199,7 +6268,7 @@
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -6912,7 +6981,7 @@
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -10822,7 +10891,7 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 50.0,
             "repairable": false
         },
@@ -16319,7 +16388,7 @@
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 100.0,
             "repairable": true
         },
@@ -16963,7 +17032,7 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 100.0,
             "repairable": false
         },
@@ -18757,7 +18826,7 @@
         "quickDespawn": false,
         "rarity": "Common",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -19355,7 +19424,7 @@
         "quickDespawn": false,
         "rarity": "Common",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 100.0,
             "repairable": false
         },
@@ -19622,7 +19691,7 @@
         "itemid": 1588298435,
         "shortname": "rifle.bolt",
         "Name": "Bolt Action Rifle",
-        "Description": "A High powered, highly accurate, long range rifle.",
+        "Description": "A high powered, highly accurate, long range rifle.",
         "Category": "Weapon",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -22888,7 +22957,7 @@
         "itemid": -1770889433,
         "shortname": "skylantern.skylantern.green",
         "Name": "Sky Lantern - Green",
-        "Description": "#skylantern.skylantern.green.desc",
+        "Description": "A beautiful green sky lantern. Can be launched in any direction. Has one inventory slot. Can be Ignited with a lit torch.",
         "Category": "Fun",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -22911,7 +22980,7 @@
         "itemid": -1824770114,
         "shortname": "skylantern.skylantern.orange",
         "Name": "Sky Lantern - Orange",
-        "Description": "#skylantern.skylantern.orange.desc",
+        "Description": "A beautiful orange sky lantern. Can be launched in any direction. Has one inventory slot. Can be Ignited with a lit torch.",
         "Category": "Fun",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -22934,7 +23003,7 @@
         "itemid": 831955134,
         "shortname": "skylantern.skylantern.purple",
         "Name": "Sky Lantern - Purple",
-        "Description": "#skylantern.skylantern.purple.desc",
+        "Description": "A beautiful purple sky lantern. Can be launched in any direction. Has one inventory slot. Can be Ignited with a lit torch.",
         "Category": "Fun",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -22957,7 +23026,7 @@
         "itemid": -1433390281,
         "shortname": "skylantern.skylantern.red",
         "Name": "Sky Lantern - Red",
-        "Description": "#skylantern.skylantern.red.desc",
+        "Description": "A beautiful red sky lantern. Can be launched in any direction. Has one inventory slot. Can be Ignited with a lit torch.",
         "Category": "Fun",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -24484,7 +24553,7 @@
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -24507,7 +24576,7 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -24530,7 +24599,7 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -24553,7 +24622,7 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -24576,7 +24645,7 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -24599,7 +24668,7 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -24622,7 +24691,7 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -25473,7 +25542,7 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
