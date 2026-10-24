@@ -278,8 +278,8 @@
     {
         "itemid": 162882477,
         "shortname": "50cal.mounted",
-        "Name": "#50cal",
-        "Description": "#50cal.desc",
+        "Name": "50 Cal Turret",
+        "Description": "50 Cal Turret",
         "Category": "Weapon",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -301,8 +301,8 @@
     {
         "itemid": -1467876094,
         "shortname": "50cal.mounted.left",
-        "Name": "#50cal",
-        "Description": "#50cal.desc",
+        "Name": "Dual 50 Cal Turret",
+        "Description": "Dual 50 Cal Turret",
         "Category": "Weapon",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -324,8 +324,8 @@
     {
         "itemid": 1248383659,
         "shortname": "50cal.mounted.right",
-        "Name": "#50cal",
-        "Description": "#50cal.desc",
+        "Name": "Dual 50 Cal Turret",
+        "Description": "Dual 50 Cal Turret",
         "Category": "Weapon",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -547,6 +547,29 @@
         },
         "Parent": 0,
         "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1930628359,
+        "shortname": "alien.costume",
+        "Name": "Alien Costume",
+        "Description": "An inflatable alien costume. Acting as a replacement for wooden pants, you can equip this item to look as silly as possible. Three varieties.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 80.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
         "isHoldable": false,
         "isUsable": false,
         "HasSkins": false
@@ -2105,7 +2128,7 @@
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -2185,10 +2208,79 @@
         "HasSkins": false
     },
     {
+        "itemid": -219005627,
+        "shortname": "barricade.sandbags.half",
+        "Name": "#barricade.sandbags.half",
+        "Description": "A protective barricade made out of Sand Bags. Deploy another one on top to build it higher, up to a sandbag pillbox.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -559599960,
         "shortname": "barricade.sandbags",
         "Name": "Sandbag Barricade",
-        "Description": "A protective barricade made out of Sand Bags.",
+        "Description": "A protective barricade made out of Sand Bags. Deploy another one on top to build it higher, up to a sandbag pillbox.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 20,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1088645302,
+        "shortname": "barricade.sandbags.pillbox",
+        "Name": "#barricade.sandbags.pillbox",
+        "Description": "#barricade.sandbags.pillbox.desc",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 2141654944,
+        "shortname": "barricade.sandbags.three.quarter",
+        "Name": "#barricade.sandbags.three.quarter",
+        "Description": "A protective barricade made out of Sand Bags. Deploy another one on top to build it higher, up to a sandbag pillbox.",
         "Category": "Construction",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -2825,6 +2917,75 @@
         "Parent": 0,
         "isWearable": false,
         "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 718346230,
+        "shortname": "beefmeat.cooked",
+        "Name": "Cooked Beef",
+        "Description": "Delicious Beef, Eating it will restore some health, hunger, and thirst.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 20,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -201824959,
+        "shortname": "beefmeat",
+        "Name": "Raw Beef",
+        "Description": "Raw Beef. Eating it will damage your health, try cooking it first.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 20,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1412100395,
+        "shortname": "beefmeat.spoiled",
+        "Name": "Spoiled Beef",
+        "Description": "Spoiled Beef. Consuming will damage your health.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 20,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
         "isUsable": true,
         "HasSkins": false
     },
@@ -3563,6 +3724,29 @@
         "isHoldable": true,
         "isUsable": true,
         "HasSkins": true
+    },
+    {
+        "itemid": -909588488,
+        "shortname": "bread.brioche.loaf",
+        "Name": "Brioche Bread",
+        "Description": "A loaf of rich brioche bread, eating it provides a large boost to health, hunger and hydration. Feeding to a horse will provide a boost to its digestion and dung production for a short time.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
     },
     {
         "itemid": 281099360,
@@ -6337,7 +6521,7 @@
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -6345,6 +6529,29 @@
         "isWearable": true,
         "isHoldable": false,
         "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1185218972,
+        "shortname": "cream",
+        "Name": "Cream",
+        "Description": "The fat skimmed off whole milk. Calorie dense and restorative, but it will barely quench your thirst.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -6946,6 +7153,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -570638754,
+        "shortname": "discord.zombie.plushie",
+        "Name": "Zombie Wumpus Plush",
+        "Description": "Exclusive to the Rust Shop on Discord!",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 1046904719,
         "shortname": "diverhatchet",
         "Name": "Abyss Metal Hatchet",
@@ -7050,7 +7280,7 @@
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -10960,9 +11190,32 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 50.0,
             "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1661343913,
+        "shortname": "generator.biofuel",
+        "Name": "Biofuel Generator",
+        "Description": "A large pot that can convert organic matter into fuel.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
         },
         "Parent": 0,
         "isWearable": false,
@@ -12098,6 +12351,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 139776459,
+        "shortname": "halloween.string.lights",
+        "Name": "Halloween String Lights",
+        "Description": "Spooky Halloween string lights for your base. Part of the Spooky Decor Bundle.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 20,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -1785231475,
         "shortname": "halloween.surgeonsuit",
         "Name": "Surgeon Scrubs",
@@ -12118,6 +12394,29 @@
         "isWearable": true,
         "isHoldable": false,
         "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1174330346,
+        "shortname": "halloweenwreath",
+        "Name": "Halloween Wreath",
+        "Description": "A spooky Halloween Wreath for the doors in your base. Part of the Spooky Decor Bundle.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -12650,6 +12949,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -1587608109,
+        "shortname": "hazmat.plague",
+        "Name": "Plague Doctor Hazmat Suit",
+        "Description": "The Plague Doctor delivers no cure - only death and decay. Bring out your dead, or prepare to join them.",
+        "Category": "Attire",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 450.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": true,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": 1578317134,
         "shortname": "hazmat.plushy",
         "Name": "Hazmat Plushy",
@@ -13110,10 +13432,56 @@
         "HasSkins": false
     },
     {
+        "itemid": -132349657,
+        "shortname": "healingtea.pure.creamy",
+        "Name": "Creamy Pure Healing Tea",
+        "Description": "A pure healing tea, provides hydration and heals you a large amount over time. Enriched with cream for a stronger, shorter lived effect.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -1677315902,
         "shortname": "healingtea.pure",
         "Name": "Pure Healing Tea",
         "Description": "A pure healing tea, provides hydration and heals you a large amount over time.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1644292642,
+        "shortname": "healingtea.pure.milky",
+        "Name": "Milky Pure Healing Tea",
+        "Description": "A pure healing tea, provides hydration and heals you a large amount over time. Enriched with milk to make the effect last longer.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -13274,7 +13642,7 @@
         "itemid": 1160881421,
         "shortname": "hitchtroughcombo",
         "Name": "Hitch & Trough",
-        "Description": "A Hitching post and Trough. Dismounting your horses here will keep them healthy and fed as long as it is kept stocked with food.",
+        "Description": "A Hitching post and Trough. Dismounting your horses here will keep them healthy and fed as long as it is kept stocked with food. Livestock will also eat from here if there's not enough grass nearby.",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -13710,7 +14078,7 @@
     {
         "itemid": -1579932985,
         "shortname": "horsedung",
-        "Name": "Horse Dung",
+        "Name": "Dung",
         "Description": "Fresh and fertile.",
         "Category": "Resources",
         "maxDraggable": 0,
@@ -16238,10 +16606,56 @@
         "HasSkins": false
     },
     {
+        "itemid": -1244746477,
+        "shortname": "maxhealthtea.pure.creamy",
+        "Name": "Creamy Pure Max Health Tea",
+        "Description": "A pure health tea, provides hydration and temporarily boosts maximum health a large amount. Enriched with cream for a stronger, shorter lived effect.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 1712261904,
         "shortname": "maxhealthtea.pure",
         "Name": "Pure Max Health Tea",
         "Description": "A pure health tea, provides hydration and temporarily boosts maximum health a large amount.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1388103748,
+        "shortname": "maxhealthtea.pure.milky",
+        "Name": "Milky Pure Max Health Tea",
+        "Description": "A pure health tea, provides hydration and temporarily boosts maximum health a large amount. Enriched with milk to make the effect last longer.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -16457,7 +16871,7 @@
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 100.0,
             "repairable": true
         },
@@ -16790,6 +17204,29 @@
         "HasSkins": false
     },
     {
+        "itemid": 325350919,
+        "shortname": "milk",
+        "Name": "Milk",
+        "Description": "A small bottle of milk. Very calorie dense. Store in a fridge to separate it and create Cream.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 1361520181,
         "shortname": "minecart.planter",
         "Name": "Minecart Planter",
@@ -17101,7 +17538,7 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 100.0,
             "repairable": false
         },
@@ -17342,6 +17779,75 @@
         "HasSkins": false
     },
     {
+        "itemid": -319133397,
+        "shortname": "muttonmeat.cooked",
+        "Name": "Cooked Mutton",
+        "Description": "Delicious Mutton, Eating it will restore some health, hunger, and thirst.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 20,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1957595450,
+        "shortname": "muttonmeat",
+        "Name": "Raw Mutton",
+        "Description": "Raw Mutton. Eating it will damage your health, try cooking it first.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 20,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1751463672,
+        "shortname": "muttonmeat.spoiled",
+        "Name": "Spoiled Mutton",
+        "Description": "Spoiled Mutton. Consuming will damage your health.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 20,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 381595627,
         "shortname": "neonsigntr",
         "Name": "Twitch Rivals Neon Sign",
@@ -17549,10 +18055,56 @@
         "HasSkins": false
     },
     {
+        "itemid": -744942541,
+        "shortname": "oretea.pure.creamy",
+        "Name": "Creamy Pure Ore Tea",
+        "Description": "A pure ore tea, provides hydration and temporarily increases your yield when harvesting ores a large amount. Enriched with cream for a stronger, shorter lived effect.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 1729374708,
         "shortname": "oretea.pure",
         "Name": "Pure Ore Tea",
         "Description": "A pure ore tea, provides hydration and temporarily increases your yield when harvesting ores a large amount.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1243083208,
+        "shortname": "oretea.pure.milky",
+        "Name": "Milky Pure Ore Tea",
+        "Description": "A pure ore tea, provides hydration and temporarily increases your yield when harvesting ores a large amount. Enriched with milk to make the effect last longer.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -18032,10 +18584,102 @@
         "HasSkins": false
     },
     {
+        "itemid": -1846744758,
+        "shortname": "pie.apple.rich",
+        "Name": "Rich Apple Pie",
+        "Description": "An apple pie enriched with cream. Provides a boost to hunger, health and hydration. Gives better night vision, including tree markings and ore hotspots, for a long time.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 2039177180,
         "shortname": "pie.bear",
         "Name": "Bear Pie",
         "Description": "A pie made of bear meat, provides a boost to hunger, health and hydration. Increases effect of harvesting teas but reduces their duration.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1883513936,
+        "shortname": "pie.bear.rich",
+        "Name": "Rich Bear Pie",
+        "Description": "A bear meat pie enriched with cream. Provides a boost to hunger, health and hydration. Greatly increases effect of harvesting teas but reduces their duration.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 782269436,
+        "shortname": "pie.beef",
+        "Name": "Beef Pie",
+        "Description": "A pie made of beef, increases the maximum amount of food that can be eaten. High calorie consumption increases chance of recovering from injuries.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -867055736,
+        "shortname": "pie.beef.rich",
+        "Name": "Rich Beef Pie",
+        "Description": "A pie made of beef, enriched with cream. Increases the maximum amount of food that can be eaten, up to double the normal amount. High calorie consumption increases chance of recovering from injuries.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -18078,10 +18722,56 @@
         "HasSkins": false
     },
     {
+        "itemid": 1469787676,
+        "shortname": "pie.bigcat.rich",
+        "Name": "Rich Big Cat Pie",
+        "Description": "A jungle cat pie enriched with cream, purrfect temperature. Boosts hunger, health and hydration. Shows nearby animal tracks for a long time.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 120820987,
         "shortname": "pie.chicken",
         "Name": "Chicken Pie",
         "Description": "Just like mom used to make. Provides a boost to hunger, health and hydration. Increases the chance of better genes from crops for short time.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 2006264797,
+        "shortname": "pie.chicken.rich",
+        "Name": "Rich Chicken Pie",
+        "Description": "Just like mom used to make, enriched with cream. Provides a boost to hunger, health and hydration. Greatly increases the chance of better genes from crops for a short time.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -18147,10 +18837,102 @@
         "HasSkins": false
     },
     {
+        "itemid": 1427291780,
+        "shortname": "pie.fish.rich",
+        "Name": "Rich Fish Pie",
+        "Description": "A delightful fish pie enriched with cream. Provides a boost to hunger, health and hydration. Increases base comfort level for a long time.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 320438357,
         "shortname": "pie.hunters",
         "Name": "Hunters Pie",
         "Description": "Tasty hunters pie, made with real deer. Provides a boost to hunger, health and hydration. Reduces bleeding for a short time.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1188678681,
+        "shortname": "pie.hunters.rich",
+        "Name": "Rich Hunters Pie",
+        "Description": "A hunters pie enriched with cream, made with real deer. Provides a boost to hunger, health and hydration. Stops bleeding for a short time.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 939198535,
+        "shortname": "pie.mutton",
+        "Name": "Shepherds Pie",
+        "Description": "Hearty mutton pie, provides a boost to hunger, health and hydration. Livestock grow used to you twice as fast, and are far less likely to turn on you, for a short time.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1468691829,
+        "shortname": "pie.mutton.rich",
+        "Name": "Rich Shepherds Pie",
+        "Description": "A hearty shepherds pie enriched with cream. Provides a boost to hunger, health and hydration. Livestock grow used to you far faster, and are far less likely to turn on you, for a short time.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -18193,10 +18975,56 @@
         "HasSkins": false
     },
     {
+        "itemid": 1988640176,
+        "shortname": "pie.pork.rich",
+        "Name": "Rich Pork Pie",
+        "Description": "A tempting pork pie enriched with cream. Provides a boost to hunger, health and hydration. Greatly improves healing rate from other sources for a short time.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -1488408786,
         "shortname": "pie.pumpkin",
         "Name": "Pumpkin Pie",
         "Description": "Spooky pumpkin pie, provides a boost to health, hunger and hydration. Increases maximum health for a short time.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 3,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1364112542,
+        "shortname": "pie.pumpkin.rich",
+        "Name": "Rich Pumpkin Pie",
+        "Description": "A spooky pumpkin pie enriched with cream. Provides a boost to health, hunger and hydration. Greatly increases maximum health for a short time.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -18895,7 +19723,7 @@
         "quickDespawn": false,
         "rarity": "Common",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -19021,10 +19849,56 @@
         "HasSkins": false
     },
     {
+        "itemid": 1527700610,
+        "shortname": "purecoolingtea.creamy",
+        "Name": "Creamy Pure Cooling Tea",
+        "Description": "A pure cooling tea that temporarily decreases your max and core temperature. Enriched with cream for a stronger, shorter lived effect.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 1121416193,
         "shortname": "purecoolingtea",
         "Name": "Pure Cooling Tea",
         "Description": "A pure cooling tea that temporarily decreases your max and core temperature.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 1738714421,
+        "shortname": "purecoolingtea.milky",
+        "Name": "Milky Pure Cooling Tea",
+        "Description": "A pure cooling tea that temporarily decreases your max and core temperature. Enriched with milk to make the effect last longer.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -19067,6 +19941,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -1661676046,
+        "shortname": "pureharvestingtea.creamy",
+        "Name": "Creamy Pure Harvesting Tea",
+        "Description": "A pure harvesting tea, provides hydration and temporarily increases the amount of resources you receive from harvesting corpses a large amount. Enriched with cream for a stronger, shorter lived effect.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 377750553,
         "shortname": "pureharvestingtea",
         "Name": "Pure Harvesting Tea",
@@ -19090,10 +19987,79 @@
         "HasSkins": false
     },
     {
+        "itemid": 789540413,
+        "shortname": "pureharvestingtea.milky",
+        "Name": "Milky Pure Harvesting Tea",
+        "Description": "A pure harvesting tea, provides hydration and temporarily increases the amount of resources you receive from harvesting corpses a large amount. Enriched with milk to make the effect last longer.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 556232090,
+        "shortname": "purewarmingtea.creamy",
+        "Name": "Creamy Pure Warming Tea",
+        "Description": "A pure warming tea that temporarily increases both your core and minimum temperature. Enriched with cream for a stronger, shorter lived effect.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -1476814093,
         "shortname": "purewarmingtea",
         "Name": "Pure Warming Tea",
         "Description": "A pure warming tea that temporarily increases both your core and minimum temperature.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 91167975,
+        "shortname": "purewarmingtea.milky",
+        "Name": "Milky Pure Warming Tea",
+        "Description": "A pure warming tea that temporarily increases both your core and minimum temperature. Enriched with milk to make the effect last longer.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -19251,10 +20217,56 @@
         "HasSkins": false
     },
     {
+        "itemid": -1882497808,
+        "shortname": "radiationresisttea.pure.creamy",
+        "Name": "Creamy Pure Anti-Rad Tea",
+        "Description": "A pure tea that provides hydration and temporarily increases your resistance to radiation a large amount. Enriched with cream for a stronger, shorter lived effect.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -33009419,
         "shortname": "radiationresisttea.pure",
         "Name": "Pure Anti-Rad Tea",
         "Description": "A pure tea that provides hydration and temporarily increases your resistance to radiation a large amount.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1341272471,
+        "shortname": "radiationresisttea.pure.milky",
+        "Name": "Milky Pure Anti-Rad Tea",
+        "Description": "A pure tea that provides hydration and temporarily increases your resistance to radiation a large amount. Enriched with milk to make the effect last longer.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -19493,7 +20505,7 @@
         "quickDespawn": false,
         "rarity": "Common",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 100.0,
             "repairable": false
         },
@@ -19760,7 +20772,7 @@
         "itemid": 1588298435,
         "shortname": "rifle.bolt",
         "Name": "Bolt Action Rifle",
-        "Description": "A High powered, highly accurate, long range rifle.",
+        "Description": "A high powered, highly accurate, long range rifle.",
         "Category": "Weapon",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -21114,10 +22126,56 @@
         "HasSkins": false
     },
     {
+        "itemid": 1519395656,
+        "shortname": "scraptea.pure.creamy",
+        "Name": "Creamy Pure Scrap Tea",
+        "Description": "A pure scrap tea, temporarily increases the amount of scrap you receive from barrels a large amount. Enriched with cream for a stronger, shorter lived effect.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 2024467711,
         "shortname": "scraptea.pure",
         "Name": "Pure Scrap Tea",
         "Description": "A pure scrap tea, temporarily increases the amount of scrap you receive from barrels a large amount.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1057052157,
+        "shortname": "scraptea.pure.milky",
+        "Name": "Milky Pure Scrap Tea",
+        "Description": "A pure scrap tea, temporarily increases the amount of scrap you receive from barrels a large amount. Enriched with milk to make the effect last longer.",
         "Category": "Food",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -22724,6 +23782,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -1019639625,
+        "shortname": "skimmedmilk",
+        "Name": "Skimmed Milk",
+        "Description": "Milk with the cream separated out. Hydrating, but less calorie dense than whole milk.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 996293980,
         "shortname": "skull.human",
         "Name": "Human Skull",
@@ -23026,7 +24107,7 @@
         "itemid": -1770889433,
         "shortname": "skylantern.skylantern.green",
         "Name": "Sky Lantern - Green",
-        "Description": "#skylantern.skylantern.green.desc",
+        "Description": "A beautiful green sky lantern. Can be launched in any direction. Has one inventory slot. Can be Ignited with a lit torch.",
         "Category": "Fun",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -23049,7 +24130,7 @@
         "itemid": -1824770114,
         "shortname": "skylantern.skylantern.orange",
         "Name": "Sky Lantern - Orange",
-        "Description": "#skylantern.skylantern.orange.desc",
+        "Description": "A beautiful orange sky lantern. Can be launched in any direction. Has one inventory slot. Can be Ignited with a lit torch.",
         "Category": "Fun",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -23072,7 +24153,7 @@
         "itemid": 831955134,
         "shortname": "skylantern.skylantern.purple",
         "Name": "Sky Lantern - Purple",
-        "Description": "#skylantern.skylantern.purple.desc",
+        "Description": "A beautiful purple sky lantern. Can be launched in any direction. Has one inventory slot. Can be Ignited with a lit torch.",
         "Category": "Fun",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -23095,7 +24176,7 @@
         "itemid": -1433390281,
         "shortname": "skylantern.skylantern.red",
         "Name": "Sky Lantern - Red",
-        "Description": "#skylantern.skylantern.red.desc",
+        "Description": "A beautiful red sky lantern. Can be launched in any direction. Has one inventory slot. Can be Ignited with a lit torch.",
         "Category": "Fun",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -24622,7 +25703,7 @@
         "quickDespawn": false,
         "rarity": "Uncommon",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -24645,7 +25726,7 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -24668,7 +25749,7 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -24691,7 +25772,7 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -24714,7 +25795,7 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -24737,7 +25818,7 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -24760,7 +25841,7 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -25504,6 +26585,29 @@
         "isWearable": false,
         "isHoldable": true,
         "isUsable": true,
+        "HasSkins": true
+    },
+    {
+        "itemid": -1716340729,
+        "shortname": "tunalight.skull",
+        "Name": "Skull Wall Lamp",
+        "Description": "Turn your enemies into something useful with this tasteful lamp.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 100.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -25611,7 +26715,7 @@
         "quickDespawn": false,
         "rarity": "None",
         "condition": {
-            "enabled": true,
+            "enabled": false,
             "max": 200.0,
             "repairable": true
         },
@@ -26243,6 +27347,52 @@
         "HasSkins": false
     },
     {
+        "itemid": 1143376304,
+        "shortname": "wall.animal.fence.gate",
+        "Name": "Animal Fence Gate",
+        "Description": "A gate for accessing your animal pen.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Uncommon",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1814195745,
+        "shortname": "wall.animal.fence",
+        "Name": "Animal Fence",
+        "Description": "A sturdy fence for penning animals.",
+        "Category": "Construction",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "Common",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": 756890702,
         "shortname": "wall.external.high.adobe",
         "Name": "High External Adobe Wall",
@@ -26615,7 +27765,7 @@
         "shortname": "wall.graveyard.fence",
         "Name": "Graveyard Fence",
         "Description": "A Spooky Fence",
-        "Category": "Misc",
+        "Category": "Construction",
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
@@ -27167,7 +28317,7 @@
         "shortname": "waterjug",
         "Name": "Water Jug",
         "Description": "A large jerry can for all kinds of water. Holds up to 5000ml. Careful not to throw it all away!",
-        "Category": "Food",
+        "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
         "AmountType": "Count",
@@ -28221,6 +29371,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -844428380,
+        "shortname": "woodtea.pure.creamy",
+        "Name": "Creamy Pure Wood Tea",
+        "Description": "A pure wood tea, temporarily increases the yield from cutting trees a large amount. Enriched with cream for a stronger, shorter lived effect.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -557539629,
         "shortname": "woodtea.pure",
         "Name": "Pure Wood Tea",
@@ -28241,6 +29414,52 @@
         "isWearable": false,
         "isHoldable": false,
         "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 777041831,
+        "shortname": "woodtea.pure.milky",
+        "Name": "Milky Pure Wood Tea",
+        "Description": "A pure wood tea, temporarily increases the yield from cutting trees a large amount. Enriched with milk to make the effect last longer.",
+        "Category": "Food",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 10,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 204391867,
+        "shortname": "wool",
+        "Name": "Wool",
+        "Description": "A bundle of wool. Might be able to take this to a stable to sell.",
+        "Category": "Resources",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 100,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
         "HasSkins": false
     },
     {
