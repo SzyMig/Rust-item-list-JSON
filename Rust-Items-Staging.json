@@ -3197,6 +3197,75 @@
         "HasSkins": false
     },
     {
+        "itemid": -1896395719,
+        "shortname": "blueprintbook",
+        "Name": "Blueprint Book",
+        "Description": "A bound collection of precise schematics, used to research Workbench Level 3 items on the tech tree.",
+        "Category": "Component",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 100,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -143481979,
+        "shortname": "blueprintfragment",
+        "Name": "Blueprint Fragment",
+        "Description": "Damaged diagrams containing partial information, used to research Workbench Level 1 items on the tech tree.\n\n10 Blueprint Fragments can be pieced together to make a Blueprint Page.",
+        "Category": "Component",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 100,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -1716287874,
+        "shortname": "blueprintpage",
+        "Name": "Blueprint Page",
+        "Description": "A partially restored schematic page, used to research Workbench Level 2 items on the tech tree.",
+        "Category": "Component",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 100,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": false,
+            "max": 0.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
         "itemid": -880412831,
         "shortname": "blunderbuss",
         "Name": "Blunderbuss",
@@ -5455,6 +5524,29 @@
         "shortname": "clothing.mod.armorinsert_wood",
         "Name": "Wooden Armor Insert",
         "Description": "Wood insert for crafted clothes and armor, provides some extra protection from bullets and melee.",
+        "Category": "Items",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": false,
+            "max": 300.0,
+            "repairable": false
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": false,
+        "isUsable": false,
+        "HasSkins": false
+    },
+    {
+        "itemid": -593892104,
+        "shortname": "clothing.mod.armorinsert_wool",
+        "Name": "Wool Armor Insert",
+        "Description": "Wool insert for clothing and armour. Adds cold, melee and projectile protection.",
         "Category": "Items",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -22609,6 +22701,29 @@
         "HasSkins": false
     },
     {
+        "itemid": -1953695556,
+        "shortname": "shears",
+        "Name": "Shears",
+        "Description": "Used to shear wool from sheep. More effective than other weapons and will never hurt a sheep.",
+        "Category": "Tool",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "None",
+        "condition": {
+            "enabled": true,
+            "max": 200.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
         "itemid": -1994909036,
         "shortname": "sheetmetal",
         "Name": "Sheet Metal",
@@ -24417,6 +24532,29 @@
         "condition": {
             "enabled": true,
             "max": 100.0,
+            "repairable": true
+        },
+        "Parent": 0,
+        "isWearable": false,
+        "isHoldable": true,
+        "isUsable": true,
+        "HasSkins": false
+    },
+    {
+        "itemid": 2125127001,
+        "shortname": "smg.uzi",
+        "Name": "Uzi",
+        "Description": "A compact, fast-firing machine pistol. Hold [+firemode] to extend the stock for better control.",
+        "Category": "Weapon",
+        "maxDraggable": 0,
+        "ItemType": "Generic",
+        "AmountType": "Count",
+        "stackable": 1,
+        "quickDespawn": false,
+        "rarity": "Rare",
+        "condition": {
+            "enabled": true,
+            "max": 200.0,
             "repairable": true
         },
         "Parent": 0,
@@ -29466,7 +29604,7 @@
         "itemid": -180862419,
         "shortname": "workbench.upgrade.prototype",
         "Name": "Prototype Workbench Upgrade",
-        "Description": "Allows unlocking any tech tree item regardless of progression. Cost is doubled and there is a 25% chance of failure that still consumes resources.",
+        "Description": "Allows unlocking any tech tree item regardless of progression. Each attempt has a 25% chance to succeed, and a failed attempt still consumes resources.",
         "Category": "Component",
         "maxDraggable": 0,
         "ItemType": "Generic",
@@ -29558,7 +29696,7 @@
         "itemid": -160105346,
         "shortname": "workbench.upgrade.salvage",
         "Name": "Salvage Workbench Upgrade",
-        "Description": "Reduces the scrap cost of all tech tree unlocks at this bench by 20%.",
+        "Description": "Each blueprint spent on tech tree unlocks at this bench has a 20% chance to not be consumed.",
         "Category": "Component",
         "maxDraggable": 0,
         "ItemType": "Generic",
