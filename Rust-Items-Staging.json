@@ -276,29 +276,6 @@
         "HasSkins": false
     },
     {
-        "itemid": -1896395719,
-        "shortname": "advancedblueprintfragment",
-        "Name": "Advanced Blueprint Fragment",
-        "Description": "Precision schematics with complex information, multiple fragments are necessary for crafting a Tier 3 Workbench.",
-        "Category": "Component",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 100,
-        "quickDespawn": false,
-        "rarity": "None",
-        "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
-        },
-        "Parent": 0,
-        "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
-        "HasSkins": false
-    },
-    {
         "itemid": -1498613415,
         "shortname": "advancedcoolingtea",
         "Name": "Advanced Cooling Tea",
@@ -2344,29 +2321,6 @@
         "isHoldable": false,
         "isUsable": false,
         "HasSkins": true
-    },
-    {
-        "itemid": -143481979,
-        "shortname": "basicblueprintfragment",
-        "Name": "Basic Blueprint Fragment",
-        "Description": "Damaged diagrams containing partial information to constuct a Tier 2 Workbench for advanced crafting. Several fragments are needed.\n\n20 Basic Fragments can be pieced together to make an Advanced Fragment.",
-        "Category": "Component",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 100,
-        "quickDespawn": false,
-        "rarity": "None",
-        "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
-        },
-        "Parent": 0,
-        "isWearable": false,
-        "isHoldable": false,
-        "isUsable": false,
-        "HasSkins": false
     },
     {
         "itemid": -1274093662,
@@ -4689,29 +4643,6 @@
         "isWearable": false,
         "isHoldable": false,
         "isUsable": false,
-        "HasSkins": false
-    },
-    {
-        "itemid": 374496151,
-        "shortname": "charity.plushie.05",
-        "Name": "Humane World Charity 2026 Plushie",
-        "Description": "TEXT TBD",
-        "Category": "Items",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 1,
-        "quickDespawn": false,
-        "rarity": "None",
-        "condition": {
-            "enabled": false,
-            "max": 0.0,
-            "repairable": false
-        },
-        "Parent": 0,
-        "isWearable": false,
-        "isHoldable": true,
-        "isUsable": true,
         "HasSkins": false
     },
     {
@@ -17202,29 +17133,6 @@
         "isHoldable": true,
         "isUsable": true,
         "HasSkins": false
-    },
-    {
-        "itemid": 1174484438,
-        "shortname": "mini fridge",
-        "Name": "Mini Fridge",
-        "Description": "Ideal for preserving food and keeping items cool.",
-        "Category": "Electrical",
-        "maxDraggable": 0,
-        "ItemType": "Generic",
-        "AmountType": "Count",
-        "stackable": 1,
-        "quickDespawn": false,
-        "rarity": "Common",
-        "condition": {
-            "enabled": true,
-            "max": 100.0,
-            "repairable": true
-        },
-        "Parent": 0,
-        "isWearable": false,
-        "isHoldable": true,
-        "isUsable": true,
-        "HasSkins": true
     },
     {
         "itemid": -1334255764,
